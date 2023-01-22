@@ -59,4 +59,12 @@ nav > ul > li > a {
     height: 250px;
     color: #F2FAFF;
     background-color: #778da2;
+    font-size:150%;
+    text-align: center;
+}
+
+#intro > p {
+    margin: auto;
+    padding: 75px 0;
+    width: 60%;
 }
