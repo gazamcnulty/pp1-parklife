@@ -1,5 +1,12 @@
 /*header*/
 
+#top {
+    width:100%;
+    height:100px;
+    background-color: #778da2;
+
+}
+
 #logo-link:link {
     text-decoration: none;
 }
@@ -8,18 +15,25 @@
     font-size: 300%;
     float:left;
     margin: 20px 0 5px 5px;
+    color:#F2FAFF
 
 }
 
 nav {
     float: right;
     margin: 20px 5px 0 0;
+    color:#F2FAFF
 }
 
 
 nav > ul > li {
     display:inline;
     font-size: 150%;
+    color:#F2FAFF
+}
+
+nav > ul > li > a {
+    color:#F2FAFF
 }
 
 /*hero-image*/
@@ -37,6 +51,11 @@ nav > ul > li {
 
 #window1 div {
     background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 500px;
+}
+
+#intro {
     width: 100%;
     height: 500px;
 }
