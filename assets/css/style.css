@@ -27,7 +27,7 @@ nav > ul > li {
 
 #window1 {
     width:100%;
-    height: 600px;
+    height: 500px;
     background: url('../images/window1.jpeg');
     background-position: center; 
     background-repeat: no-repeat; 
@@ -38,5 +38,5 @@ nav > ul > li {
 #window1 div {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
