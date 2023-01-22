@@ -81,10 +81,9 @@ nav > ul > li > a {
     text-align: center;
 }
 
-
 .pics {
-width: 350px;
-height: 350px;
-border-radius: 5%;
-object-fit: cover;
-}
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    object-fit: cover;
+    }
