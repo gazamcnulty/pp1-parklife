@@ -1,9 +1,19 @@
 /*header*/
 
-#logo {
-    font-size: 300%;
-}
-
 #logo-link:link {
     text-decoration: none;
+}
+
+#logo {
+    font-size: 300%;
+    float:left;
+
+}
+
+nav {
+    float: right;
+}
+
+li {
+    display:inline;
 }
