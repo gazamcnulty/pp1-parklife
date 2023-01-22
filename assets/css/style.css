@@ -17,3 +17,22 @@ nav {
 li {
     display:inline;
 }
+
+/*hero-image*/
+/*added as placeholder, I may remove if I have time to experiment with background video instead*/
+
+#window1 {
+    width:100%;
+    height: 600px;
+    background: url('../images/window1.jpeg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow: hidden;
+}
+
+#window1 div {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 600px;
+}
