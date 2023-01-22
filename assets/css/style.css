@@ -100,3 +100,8 @@ ul > li > a {
     font-size:150%;
     text-align: center;
 }
+
+#social > ul > li , a {
+    display:inline;
+    text-decoration: none;
+}
