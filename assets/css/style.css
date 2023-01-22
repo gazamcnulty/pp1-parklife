@@ -7,15 +7,12 @@
 
 }
 
-#logo-link:link {
-    text-decoration: none;
-}
 
 #logo {
     font-size: 300%;
     float:left;
     margin: 20px 0 5px 5px;
-    color:#F2FAFF
+    color:#F2FAFF;
 
 }
 
@@ -33,7 +30,9 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-    color:#F2FAFF
+    color:#F2FAFF;
+    text-decoration: none;
+
 }
 
 /*hero-image*/
@@ -57,5 +56,7 @@ nav > ul > li > a {
 
 #intro {
     width: 100%;
-    height: 500px;
+    height: 250px;
+    color: #F2FAFF;
+    background-color: #778da2;
 }
