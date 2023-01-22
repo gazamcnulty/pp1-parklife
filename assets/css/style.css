@@ -90,3 +90,13 @@ ul > li > a {
     border-radius: 5%;
     object-fit: cover;
     }
+
+/*footer*/
+
+#social {
+    width: 100%;
+    height: 250px;
+    background-color: #778da2;
+    font-size:150%;
+    text-align: center;
+}
