@@ -124,10 +124,28 @@ ul > li > a {
 
 /* about */
 
+#intro {
+    width:100%;
+    height:100px;
+    background-color: #F2FAFF;
+    text-align: center;
+    
+
+}
+
 #area {
     width:100%;
     height:100px;
     background-color: #778da2;
+    text-align: center;
+
+}
+
+#dog {
+    width:100%;
+    height:100px;
+    background-color: #F2FAFF;
+    text-align: center;
 
 }
 
@@ -135,6 +153,15 @@ ul > li > a {
     width:100%;
     height:100px;
     background-color: #778da2;
+    text-align: center;
+
+}
+
+#bake {
+    width:100%;
+    height:100px;
+    background-color: #F2FAFF;
+    text-align: center;
 
 }
 
@@ -142,5 +169,6 @@ ul > li > a {
     width:100%;
     height:100px;
     background-color: #778da2;
+    text-align: center;
 
 }
