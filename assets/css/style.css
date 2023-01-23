@@ -73,11 +73,15 @@ ul > li > a {
 
  #summary {
     width: 100%;
-    max-width: 1400px;
-    text-align: center;
+    padding:100px 100px;
+    text-align:center;
     color:#F2FAFF;
     background-color: #778da2;
-    }
+    }*/
+
+#summary > p {
+    
+}
 
 /*gallery*/
 
@@ -85,6 +89,7 @@ ul > li > a {
     box-sizing: border-box;
     display:flexbox;
     flex-direction: column;
+
     /*typically justify-content: center; and align-items: center; would be used to center images in a flex box, however it doesn't work for me here when I use it on the parent div. I am unsure why. It works ok with text-align: cener; so I will use that*/
     text-align: center;
 }
