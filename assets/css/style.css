@@ -6,6 +6,11 @@ body {
     font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /*header*/
 
 #top {
@@ -66,20 +71,13 @@ ul > li > a {
 
 /*intro*/
 
-#intro {
+ #summary {
     width: 100%;
-    height: 250px;
-    color: #F2FAFF;
-    background-color: #778da2;
-    font-size:150%;
+    max-width: 1400px;
     text-align: center;
-}
-
-#intro > p {
-    margin: auto;
-    padding: 75px 0;
-    width: 60%;
-}
+    color:#F2FAFF;
+    background-color: #778da2;
+    }
 
 /*gallery*/
 
