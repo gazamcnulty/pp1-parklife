@@ -216,3 +216,15 @@ ul > li > a {
     background-color: #778da2;
     margin-top: 1em;
 }
+
+/*form*/
+
+#form-1 {
+    display:block;
+    background-color: red;
+}
+
+#form-2 {
+    display:block;
+    background-color: blue;
+}
