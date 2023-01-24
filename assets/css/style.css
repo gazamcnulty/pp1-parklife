@@ -217,7 +217,7 @@ ul > li > a {
     margin-top: 1em;
 }
 
-/*form*/
+/*contact*/
 
 #form-1 {
     display:block;
@@ -227,4 +227,9 @@ ul > li > a {
 #form-2 {
     display:block;
     background-color: blue;
+}
+
+#map {
+    width: 600px;
+    height:400px;
 }
