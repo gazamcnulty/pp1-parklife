@@ -177,8 +177,12 @@ ul > li > a {
 
 /*menu*/
 
-#toasties {
+#menu-h2 {
+    background-color: #778da2;
+}
 
+#toasties {
+    background-color: #778da2;
 }
 
 #breakfast {
@@ -186,9 +190,9 @@ ul > li > a {
 }
 
 #drinks {
-
+    background-color: #778da2;
 }
 
 #allergens {
-    
+    background-color: #778da2;
 }
