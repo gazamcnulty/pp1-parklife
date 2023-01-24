@@ -111,6 +111,7 @@ ul > li > a {
     background-color: #778da2;
     font-size:150%;
     text-align: center;
+    margin-bottom: 0;
 }
 
 #social-links {
@@ -219,6 +220,25 @@ ul > li > a {
 
 /*contact*/
 
+#contact {
+    padding: 10px;
+    display:block;
+}
+
+#form {
+    background-color: pink;
+    width: 48%;
+    float: left;
+    border: 2px solid red;
+}
+
+#map {
+    background-color: purple;
+    width: 48%;
+    float: left;
+    border: 2px solid red;
+}
+
 #form-1 {
     display:block;
     background-color: red;
@@ -229,7 +249,6 @@ ul > li > a {
     background-color: blue;
 }
 
-#map {
-    width: 600px;
-    height:400px;
+#map-window {
+    width: auto;
 }
