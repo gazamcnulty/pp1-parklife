@@ -35,7 +35,7 @@ nav {
     color:#F2FAFF
 }
 
-ul {
+li {
     list-style-type: none;
 }
 
@@ -177,22 +177,42 @@ ul > li > a {
 
 /*menu*/
 
-#menu-h2 {
+#menu {
     background-color: #778da2;
+    color:#F2FAFF;
 }
 
 #toasties {
     background-color: #778da2;
 }
 
-#breakfast {
-    background-color: #778da2;
+#toasties > ul > li {
+    margin-bottom: 1em;
+
+}
+
+#breakfast > ul > li {
+    margin-bottom: 1em;
+
 }
 
 #drinks {
     background-color: #778da2;
 }
 
+#coffee-h4 {
+	margin: 1em 0;
+	}
+
+#tea-h4 {
+    margin: 1em 0;
+    }
+
+#cold-h4 {
+    margin: 1em 0;
+    }   
+
 #allergens {
     background-color: #778da2;
+    margin-top: 1em;
 }
