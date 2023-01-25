@@ -255,6 +255,7 @@ iframe {
 
 .info {
     display:block;
+    line-height: 2em;
 }
 
 #form-2 {
@@ -263,6 +264,7 @@ iframe {
 
 .favourite {
     display:block;
+    line-height: 2em;
 }
 
 #map-window {
