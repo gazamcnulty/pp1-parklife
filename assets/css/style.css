@@ -229,7 +229,7 @@ ul > li > a {
 
 #form {
     background-color: pink;
-    width: 25%;
+    width: 40%;
     float: left;
     border: 2px solid red;
     height: 400px;
@@ -238,7 +238,7 @@ ul > li > a {
 
 #map {
     background-color: purple;
-    width: 48%;
+    width: 45%;
     height: 400px;
     float: right;
     border: 2px solid red;
@@ -258,8 +258,11 @@ iframe {
 }
 
 #form-2 {
-    display:block;
     background-color: blue;
+}
+
+.favourite {
+    display:block;
 }
 
 #map-window {
