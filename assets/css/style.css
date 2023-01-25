@@ -222,7 +222,7 @@ ul > li > a {
 
 #contact {
     display:block;
-    width: 100%;
+    width: 90%;
     height:500px;
     background-color: green;
 }
@@ -233,6 +233,7 @@ ul > li > a {
     float: left;
     border: 2px solid red;
     height: 400px;
+    margin: 10px;
 }
 
 #map {
@@ -241,6 +242,7 @@ ul > li > a {
     height: 400px;
     float: right;
     border: 2px solid red;
+    margin: 10px;
 }
 
 iframe {
@@ -248,8 +250,11 @@ iframe {
 }
 
 #form-1 {
-    display:block;
     background-color: red;
+}
+
+.info {
+    display:block;
 }
 
 #form-2 {
