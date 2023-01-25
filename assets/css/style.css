@@ -362,25 +362,25 @@ ul > li > a {
     display:block;
     width: 100%;
     height:700px;
-    background-color: green;
+    background-color: #778da2;
     padding-top: 150px;
 }
 
 #form {
-    background-color: pink;
+    background-color: #F2FAFF;
+    color:#778da2;
+    border: solid 2px grey;
     width: 30%;
     float: left;
-    border: 2px solid red;
     height: 650px;
     margin: 10px;
 }
 
 #map {
-    background-color: purple;
+    
     width: 45%;
     height: 400px;
     float: right;
-    border: 2px solid red;
     margin: 10px;
 }
 
@@ -389,7 +389,6 @@ iframe {
 }
 
 #form-1 {
-    background-color: red;
     margin-bottom: 5px;
 
 }
@@ -400,7 +399,6 @@ iframe {
 }
 
 #form-2 {
-    background-color: blue;
     margin-bottom: 5px;
 }
 
