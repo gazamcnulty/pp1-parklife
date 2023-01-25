@@ -152,14 +152,10 @@ ul > li > a {
 
 #intro-p {
     color: #F2FAFF;
-    padding: 20px;
+    padding: 70px 0;
     margin-top: 20px;
 }
-/*
-#ad {
-    margin: 20px;
-}
-*/
+
 #area {
     width:100%;
     background-color: #778da2;
@@ -180,6 +176,11 @@ ul > li > a {
     width:50%;
     height:100%;
     float:right;
+}
+#area-p {
+    color: #F2FAFF;
+    padding: 70px 0;
+    margin-top: 20px;
 }
 
 #dog {
@@ -203,6 +204,12 @@ ul > li > a {
     float:right;
 }
 
+#dog-p {
+    color: #F2FAFF;
+    padding: 70px 0;
+    margin-top: 20px;
+}
+
 #coffee {
     width:100%;
     background-color: #778da2;
@@ -222,6 +229,12 @@ ul > li > a {
     width:50%;
     height:100%;
     float:right;
+}
+
+#coffee-p {
+    color: #F2FAFF;
+    padding: 70px 0;
+    margin-top: 20px;
 }
 
 #bake {
@@ -245,6 +258,14 @@ ul > li > a {
     float:right;
 }
 
+
+#bake-p {
+    color: #F2FAFF;
+    padding: 70px 0;
+    margin-top: 20px;
+}
+
+
 #food {
     width:100%;
     background-color: #778da2;
@@ -265,6 +286,14 @@ ul > li > a {
     height:100%;
     float:right;
 }
+
+
+#food-p {
+    color: #F2FAFF;
+    padding: 70px 0;
+    margin-top: 20px;
+}
+
 
 #goals-ethics {
     width:100%;
