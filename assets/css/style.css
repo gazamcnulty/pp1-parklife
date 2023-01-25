@@ -143,7 +143,7 @@ ul > li > a {
 }
 
 #area-left {
-    width:49%;
+    width:50%;
     float:left;
 }
 
@@ -151,7 +151,7 @@ ul > li > a {
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
-    width:49%;
+    width:50%;
     height:100%;
     float:right;
 }
