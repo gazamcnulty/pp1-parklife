@@ -232,7 +232,7 @@ ul > li > a {
     width: 40%;
     float: left;
     border: 2px solid red;
-    height: 400px;
+    height: 650px;
     margin: 10px;
 }
 
@@ -251,6 +251,8 @@ iframe {
 
 #form-1 {
     background-color: red;
+    margin-bottom: 5px;
+
 }
 
 .info {
@@ -260,11 +262,21 @@ iframe {
 
 #form-2 {
     background-color: blue;
+    margin-bottom: 5px;
 }
 
 .favourite {
     display:block;
     line-height: 2em;
+}
+
+#button {    
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    width: 25%;
 }
 
 #map-window {
