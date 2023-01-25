@@ -240,6 +240,26 @@ ul > li > a {
     float:right;
 }
 
+#goals-ethics {
+    width:100%;
+    background-color: #778da2;
+    display: block;
+    height: 400px;
+}
+
+#goals-ethics-left {
+    background:url(../images/street.jpeg);
+    background-position: center;
+    background-color: red;
+    width:49%;
+    height:100%;
+    float:left;
+}
+
+#goals-ethics-right {
+    width:49%;
+    float:right;
+}
 
 /*menu*/
 
