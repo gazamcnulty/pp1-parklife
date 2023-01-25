@@ -164,11 +164,17 @@ ul > li > a {
 }
 
 #dog-left {
-
+    background:url(../images/street.jpeg);
+    background-position: center;
+    background-color: red;
+    width:49%;
+    height:100%;
+    float:left;
 }
 
 #dog-right {
-
+    width:49%;
+    float:right;
 }
 
 #coffee {
@@ -179,11 +185,17 @@ ul > li > a {
 }
 
 #coffee-left {
-
+    width:49%;
+    float:left;
 }
 
 #coffee-right {
-
+    background:url(../images/street.jpeg);
+    background-position: center;
+    background-color: red;
+    width:49%;
+    height:100%;
+    float:right;
 }
 
 #bake {
@@ -194,11 +206,17 @@ ul > li > a {
 }
 
 #bake-left {
-
+    background:url(../images/street.jpeg);
+    background-position: center;
+    background-color: red;
+    width:49%;
+    height:100%;
+    float:left;
 }
 
 #bake-right {
-
+    width:49%;
+    float:right;
 }
 
 #food {
@@ -209,12 +227,19 @@ ul > li > a {
 }
 
 #food-left {
-
+    width:49%;
+    float:left;
 }
 
 #food-right {
-
+    background:url(../images/street.jpeg);
+    background-position: center;
+    background-color: red;
+    width:49%;
+    height:100%;
+    float:right;
 }
+
 
 /*menu*/
 
