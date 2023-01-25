@@ -131,27 +131,29 @@ ul > li > a {
     width:100%;
     background-color: #778da2;
     display: block;
-    height: 350px;
+    height: 400px;
     margin:0;
 }
 
 #intro-left {
-    background-color: red;
     width:50%;
     height:100%;
     float:left;
+    position: relative;
+    left: 25px;
+    top: 20px;
 }
 
 
 #intro-right {
     width:50%;
-    height:100%;
+    float:right;
 }
 
 #intro-p {
-    color: pink;
+    color: #F2FAFF;
     padding: 20px;
-    margin-left: 10px;
+    margin-top: 20px;
 }
 /*
 #ad {
@@ -175,7 +177,6 @@ ul > li > a {
 #area-right {
     background:url(../images/street.jpeg);
     background-position: center;
-    background-color: red;
     width:50%;
     height:100%;
     float:right;
@@ -190,9 +191,8 @@ ul > li > a {
 }
 
 #dog-left {
-    background:url(../images/street.jpeg);
+    background:url(../images/pooch1.jpeg);
     background-position: center;
-    background-color: red;
     width:50%;
     height:100%;
     float:left;
@@ -217,9 +217,8 @@ ul > li > a {
 }
 
 #coffee-right {
-    background:url(../images/street.jpeg);
+    background:url(../images/coffee3.jpeg);
     background-position: center;
-    background-color: red;
     width:50%;
     height:100%;
     float:right;
@@ -234,9 +233,8 @@ ul > li > a {
 }
 
 #bake-left {
-    background:url(../images/street.jpeg);
+    background:url(../images/sandwich1.jpeg);
     background-position: center;
-    background-color: red;
     width:50%;
     height:100%;
     float:left;
@@ -261,9 +259,8 @@ ul > li > a {
 }
 
 #food-right {
-    background:url(../images/street.jpeg);
+    background:url(../images/breakfast2.jpeg);
     background-position: center;
-    background-color: red;
     width:50%;
     height:100%;
     float:right;
@@ -278,9 +275,11 @@ ul > li > a {
 }
 
 #goals-ethics-left {
+    /*
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
+    */
     width:50%;
     height:100%;
     float:left;
