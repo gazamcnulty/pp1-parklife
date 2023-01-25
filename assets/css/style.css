@@ -158,9 +158,9 @@ ul > li > a {
 
 #dog {
     width:100%;
+    background-color: #778da2;
     display: block;
-    background-color: #F2FAFF;
-    text-align: center;
+    height: 400px;
 }
 
 #dog-left {
@@ -173,9 +173,9 @@ ul > li > a {
 
 #coffee {
     width:100%;
-    display: block;
     background-color: #778da2;
-    text-align: center;
+    display: block;
+    height: 400px;
 }
 
 #coffee-left {
@@ -188,9 +188,9 @@ ul > li > a {
 
 #bake {
     width:100%;
+    background-color: #778da2;
     display: block;
-    background-color: #F2FAFF;
-    text-align: center;
+    height: 400px;
 }
 
 #bake-left {
@@ -203,9 +203,9 @@ ul > li > a {
 
 #food {
     width:100%;
-    display: block;
     background-color: #778da2;
-    text-align: center;
+    display: block;
+    height: 400px;
 }
 
 #food-left {
@@ -213,7 +213,7 @@ ul > li > a {
 }
 
 #food-right {
-    
+
 }
 
 /*menu*/
