@@ -193,7 +193,7 @@ ul > li > a {
 }
 #area-p {
     color: #F2FAFF;
-    padding: 70px 0;
+    padding: 70px 40px;
     margin-top: 20px;
 }
 
@@ -220,7 +220,7 @@ ul > li > a {
 
 #dog-p {
     color: #F2FAFF;
-    padding: 70px 0;
+    padding: 70px 40px;
     margin-top: 20px;
 }
 
@@ -247,7 +247,7 @@ ul > li > a {
 
 #coffee-p {
     color: #F2FAFF;
-    padding: 70px 0;
+    padding: 70px 40px;
     margin-top: 20px;
 }
 
@@ -275,7 +275,7 @@ ul > li > a {
 
 #bake-p {
     color: #F2FAFF;
-    padding: 70px 0;
+    padding: 70px 40px;
     margin-top: 20px;
 }
 
@@ -304,13 +304,14 @@ ul > li > a {
 
 #food-p {
     color: #F2FAFF;
-    padding: 70px 0;
+    padding: 70px 40px;
     margin-top: 20px;
 }
 
 
 #goals-ethics {
     width:100%;
+    color:#F2FAFF;
     background-color: #778da2;
     display: block;
     height: 400px;
@@ -318,19 +319,24 @@ ul > li > a {
 }
 
 #goals-ethics-left {
-    /*
-    background:url(../images/street.jpeg);
-    background-position: center;
-    background-color: red;
-    */
+
     width:50%;
     height:100%;
     float:left;
 }
 
+#goals {
+    padding: 70px 40px;
+}
+
 #goals-ethics-right {
+
     width:50%;
     float:right;
+}
+
+#ethics{
+    padding: 70px 40px;
 }
 
 /*menu*/
