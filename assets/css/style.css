@@ -140,11 +140,13 @@ ul > li > a {
     background-color: #778da2;
     display: block;
     height: 400px;
+    margin:0;
 }
 
 #area-left {
     width:50%;
     float:left;
+    text-align: left;
 }
 
 #area-right {
@@ -161,19 +163,20 @@ ul > li > a {
     background-color: #778da2;
     display: block;
     height: 400px;
+    margin:0;
 }
 
 #dog-left {
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
-    width:49%;
+    width:50%;
     height:100%;
     float:left;
 }
 
 #dog-right {
-    width:49%;
+    width:50%;
     float:right;
 }
 
@@ -182,10 +185,11 @@ ul > li > a {
     background-color: #778da2;
     display: block;
     height: 400px;
+    margin:0;
 }
 
 #coffee-left {
-    width:49%;
+    width:50%;
     float:left;
 }
 
@@ -193,7 +197,7 @@ ul > li > a {
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
-    width:49%;
+    width:50%;
     height:100%;
     float:right;
 }
@@ -203,19 +207,20 @@ ul > li > a {
     background-color: #778da2;
     display: block;
     height: 400px;
+    margin:0;
 }
 
 #bake-left {
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
-    width:49%;
+    width:50%;
     height:100%;
     float:left;
 }
 
 #bake-right {
-    width:49%;
+    width:50%;
     float:right;
 }
 
@@ -224,10 +229,11 @@ ul > li > a {
     background-color: #778da2;
     display: block;
     height: 400px;
+    margin:0;
 }
 
 #food-left {
-    width:49%;
+    width:50%;
     float:left;
 }
 
@@ -235,7 +241,7 @@ ul > li > a {
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
-    width:49%;
+    width:50%;
     height:100%;
     float:right;
 }
@@ -245,19 +251,20 @@ ul > li > a {
     background-color: #778da2;
     display: block;
     height: 400px;
+    margin:0;
 }
 
 #goals-ethics-left {
     background:url(../images/street.jpeg);
     background-position: center;
     background-color: red;
-    width:49%;
+    width:50%;
     height:100%;
     float:left;
 }
 
 #goals-ethics-right {
-    width:49%;
+    width:50%;
     float:right;
 }
 
