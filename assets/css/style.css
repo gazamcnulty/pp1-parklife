@@ -125,16 +125,29 @@ ul > li > a {
     margin: 20px;
 }
 
+
 /* about */
 
-#intro {
+#video {
     width:100%;
     background-color: #778da2;
     display: block;
-    height: 400px;
-    margin:0;
+    text-align: center;
 }
 
+#ad-video {
+    margin-bottom: 150px;
+}
+
+#intro {
+    text-align: center;
+    color:#F2FAFF;
+    background-color: #778da2;
+    padding: 60px 0 10px 0;
+}
+
+
+/*
 #intro-left {
     width:50%;
     height:100%;
@@ -149,12 +162,13 @@ ul > li > a {
     width:50%;
     float:right;
 }
+/*
 
 #intro-p {
     color: #F2FAFF;
     padding: 70px 0;
-    margin-top: 20px;
 }
+*/
 
 #area {
     width:100%;
