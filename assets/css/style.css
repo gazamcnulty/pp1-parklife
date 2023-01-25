@@ -17,6 +17,8 @@ body {
     width:100%;
     height:100px;
     background-color: #778da2;
+    position:fixed;
+    top:0;
 
 }
 
@@ -128,6 +130,13 @@ ul > li > a {
 
 /* about */
 
+#intro {
+    text-align: center;
+    color:#F2FAFF;
+    background-color: #778da2;
+    padding: 200px 100px 100px 100px;
+}
+
 #video {
     width:100%;
     background-color: #778da2;
@@ -139,36 +148,6 @@ ul > li > a {
     margin-bottom: 150px;
 }
 
-#intro {
-    text-align: center;
-    color:#F2FAFF;
-    background-color: #778da2;
-    padding: 60px 0 10px 0;
-}
-
-
-/*
-#intro-left {
-    width:50%;
-    height:100%;
-    float:left;
-    position: relative;
-    left: 25px;
-    top: 20px;
-}
-
-
-#intro-right {
-    width:50%;
-    float:right;
-}
-/*
-
-#intro-p {
-    color: #F2FAFF;
-    padding: 70px 0;
-}
-*/
 
 #area {
     width:100%;
