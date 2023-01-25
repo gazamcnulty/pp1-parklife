@@ -129,12 +129,35 @@ ul > li > a {
 
 #intro {
     width:100%;
-    height:100px;
     background-color: #778da2;
-    text-align: center;
-
+    display: block;
+    height: 350px;
+    margin:0;
 }
 
+#intro-left {
+    background-color: red;
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+
+#intro-right {
+    width:50%;
+    height:100%;
+}
+
+#intro-p {
+    color: pink;
+    padding: 20px;
+    margin-left: 10px;
+}
+/*
+#ad {
+    margin: 20px;
+}
+*/
 #area {
     width:100%;
     background-color: #778da2;
