@@ -77,9 +77,6 @@ a:hover {
 #ad { 
     width:1450px;
     padding:10px 20px;
-    z-index: -1;
-    position:fixed;
-    top:100px;
    
 }
 
@@ -343,14 +340,22 @@ a:hover {
 #menu {
     color:#F2FAFF;
     padding-top: 150px;
+    width: 100%;
 }
 
 #toasties {
+    width: 30%;
+    float: left;
 }
 
 #toasties > ul > li {
     margin-bottom: 1em;
 
+}
+
+#breakfast {
+    width: 30%;
+    float: left;
 }
 
 #breakfast > ul > li {
@@ -359,6 +364,8 @@ a:hover {
 }
 
 #drinks {
+    width: 30%;
+    float: right;
 }
 
 #coffee-h4 {
