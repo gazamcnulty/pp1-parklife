@@ -83,13 +83,16 @@ a:hover {
     height: 500px;
 }
 
- #summary {
+ #summary-div {
     width: 100%;
-    padding:100px 100px;
+    padding:100px 0;
     text-align:center;
     color:#F2FAFF;
-
     }
+
+#summary {
+  padding: 0 100px;
+}
 
 
 /*gallery*/
