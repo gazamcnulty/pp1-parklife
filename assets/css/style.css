@@ -335,16 +335,35 @@ a:hover {
     padding: 70px 40px;
 }
 
+
+
+
+
+
+
+
+
 /*menu*/
+
+
+
+
+
+
+
+
 
 #menu {
     color:#F2FAFF;
-    padding-top: 150px;
-    width: 100%;
+    margin-top: 200px;
+    width: 90%;
+    height: 1100px;
 }
 
 #toasties {
     width: 30%;
+    height: 1000px;
+    padding: 15px; 
     float: left;
 }
 
@@ -355,6 +374,8 @@ a:hover {
 
 #breakfast {
     width: 30%;
+    height: 1000px;
+    padding: 15px;
     float: left;
 }
 
@@ -365,7 +386,9 @@ a:hover {
 
 #drinks {
     width: 30%;
-    float: right;
+    padding: 15px;
+    height: 1000px;
+    float: left;
 }
 
 #coffee-h4 {
@@ -381,8 +404,11 @@ a:hover {
     }   
 
 #allergens {
-    margin-top: 1em;
+    display: block;
+    padding: 40px;
+    color: #F2FAFF;
 }
+
 
 /*contact*/
 
