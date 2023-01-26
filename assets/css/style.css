@@ -6,6 +6,7 @@ body {
     font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
     background-color: #778da2;
     z-index: 0;
+    margin: 0;
 }
 
 /*
