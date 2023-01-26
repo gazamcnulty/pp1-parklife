@@ -67,6 +67,16 @@ a:hover {
 /*hero-image*/
 /*added as placeholder, I may remove if I have time to experiment with background video instead*/
 
+#ad-div {
+    width: 100%;
+}
+
+#ad { 
+    width:1450px;
+    padding:10px 20px;
+}
+
+/*
 #window1 {
     width:100%;
     height: 500px;
@@ -78,10 +88,10 @@ a:hover {
 }
 
 #window1 div {
-    /*background-color: rgba(0, 0, 0, 0.3);*/
     width: 100%;
     height: 500px;
 }
+*/
 
  #summary-div {
     width: 100%;
