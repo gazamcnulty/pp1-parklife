@@ -7,10 +7,11 @@ body {
     background-color: #778da2;
 }
 
+/*
 * {
     margin: 0;
     padding: 0;
-}
+}*/
 
 /*header*/
 
@@ -51,6 +52,11 @@ nav > ul > li {
 ul > li > a {
     color:#F2FAFF;
     text-decoration: none;
+}
+
+a:hover {
+    color:#778da2;
+    background-color: #F2FAFF;
 }
 
 /*hero-image*/
