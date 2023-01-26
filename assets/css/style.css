@@ -5,6 +5,7 @@
 body {
     font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
     background-color: #778da2;
+    z-index: 0;
 }
 
 /*
@@ -21,6 +22,7 @@ body {
     background-color: #778da2;
     position:fixed;
     top:0;
+    z-index: 1;
 
 }
 
@@ -67,6 +69,7 @@ a:hover {
 /*hero-image*/
 /*added as placeholder, I may remove if I have time to experiment with background video instead*/
 
+
 #ad-div {
     width: 100%;
 }
@@ -74,6 +77,10 @@ a:hover {
 #ad { 
     width:1450px;
     padding:10px 20px;
+    z-index: -1;
+    position:fixed;
+    top:100px;
+   
 }
 
 /*
