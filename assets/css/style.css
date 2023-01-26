@@ -17,6 +17,7 @@ body {
 #top {
     width:100%;
     height:100px;
+    background-color: #778da2;
     position:fixed;
     top:0;
 
@@ -76,6 +77,7 @@ ul > li > a {
     padding:100px 100px;
     text-align:center;
     color:#F2FAFF;
+
     }
 
 
@@ -104,6 +106,7 @@ ul > li > a {
     height: 200px;
     align-items: center;
     padding-top: 30px;
+    background-color: #778da2;
     font-size:150%;
     text-align: center;
     margin-bottom: 0;
@@ -132,7 +135,6 @@ ul > li > a {
 
 #video {
     width:100%;
-    background-color: #778da2;
     display: block;
     text-align: center;
 }
@@ -144,7 +146,6 @@ ul > li > a {
 
 #area {
     width:100%;
-    background-color: #778da2;
     display: block;
     height: 400px;
     margin:0;
@@ -171,7 +172,6 @@ ul > li > a {
 
 #dog {
     width:100%;
-    background-color: #778da2;
     display: block;
     height: 400px;
     margin:0;
@@ -198,7 +198,6 @@ ul > li > a {
 
 #coffee {
     width:100%;
-    background-color: #778da2;
     display: block;
     height: 400px;
     margin:0;
@@ -225,7 +224,6 @@ ul > li > a {
 
 #bake {
     width:100%;
-    background-color: #778da2;
     display: block;
     height: 400px;
     margin:0;
@@ -254,7 +252,6 @@ ul > li > a {
 
 #food {
     width:100%;
-    background-color: #778da2;
     display: block;
     height: 400px;
     margin:0;
@@ -284,7 +281,6 @@ ul > li > a {
 #goals-ethics {
     width:100%;
     color:#F2FAFF;
-    background-color: #778da2;
     display: block;
     height: 400px;
     padding: 50px 0;
@@ -314,13 +310,11 @@ ul > li > a {
 /*menu*/
 
 #menu {
-    background-color: #778da2;
     color:#F2FAFF;
     padding-top: 150px;
 }
 
 #toasties {
-    background-color: #778da2;
 }
 
 #toasties > ul > li {
@@ -334,7 +328,6 @@ ul > li > a {
 }
 
 #drinks {
-    background-color: #778da2;
 }
 
 #coffee-h4 {
@@ -350,7 +343,6 @@ ul > li > a {
     }   
 
 #allergens {
-    background-color: #778da2;
     margin-top: 1em;
 }
 
@@ -360,7 +352,6 @@ ul > li > a {
     display:block;
     width: 100%;
     height:700px;
-    background-color: #778da2;
     padding-top: 150px;
 }
 
