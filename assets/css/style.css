@@ -152,18 +152,15 @@ a:hover {
 
 #social-links {
     margin-top: 55px;
-    width:100%;
     align-items: center;
-    background-color: pink;
 }
 
 #social > ul {
-    width:100%;
-    background-color: red;
+
 }
 
 #social > ul > li {
-    background-color: green;
+
     display:inline;
     text-decoration: none;
     margin: 20px;
@@ -228,8 +225,9 @@ a:hover {
 }
 #area-p {
     color: #F2FAFF;
-    padding: 70px 40px;
+    padding: 40px;
     margin-top: 20px;
+    line-height: 2em;
 }
 
 #dog {
@@ -254,8 +252,9 @@ a:hover {
 
 #dog-p {
     color: #F2FAFF;
-    padding: 70px 40px;
+    padding: 40px;
     margin-top: 20px;
+    line-height: 2em;
 }
 
 #coffee {
@@ -280,8 +279,9 @@ a:hover {
 
 #coffee-p {
     color: #F2FAFF;
-    padding: 70px 40px;
+    padding: 40px;
     margin-top: 20px;
+    line-height: 2em;
 }
 
 #bake {
@@ -307,8 +307,9 @@ a:hover {
 
 #bake-p {
     color: #F2FAFF;
-    padding: 70px 40px;
+    padding: 40px;
     margin-top: 20px;
+    line-height: 2em;
 }
 
 
@@ -337,6 +338,7 @@ a:hover {
     color: #F2FAFF;
     padding: 70px 40px;
     margin-top: 20px;
+    line-height: 2em;
 }
 
 
