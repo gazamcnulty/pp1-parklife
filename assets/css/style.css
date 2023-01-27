@@ -5,6 +5,7 @@
 body {
     font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
     background-color: #778da2;
+    max-width: 1800px;
     z-index: 0;
     margin: 0;
     padding: 0;
