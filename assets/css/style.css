@@ -7,6 +7,7 @@ body {
     background-color: #778da2;
     z-index: 0;
     margin: 0;
+    padding: 0;
 }
 
 /*
@@ -151,17 +152,41 @@ a:hover {
 
 #social-links {
     margin-top: 55px;
+    width:100%;
     align-items: center;
+    background-color: pink;
 }
 
-#social > ul > li, a {
+#social > ul {
+    width:100%;
+    background-color: red;
+}
+
+#social > ul > li {
+    background-color: green;
     display:inline;
     text-decoration: none;
     margin: 20px;
 }
 
+#social > ul > li > a {
+
+    /*padding: 0 20px;*/
+    /*margin: 20px;*/
+}
+
+
+
+
 
 /* about */
+
+
+
+
+
+
+
 
 #intro {
     text-align: center;
