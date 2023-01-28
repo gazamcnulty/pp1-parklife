@@ -542,7 +542,34 @@ button {
 
 
 
+@media only screen and (max-width: 750px) {
+    .pics {
+        width:250px;
+        height:250px;
+        border-radius: 5%;
+        object-fit: cover;
+        }
 
+        #logo {
+            float:left;
+            font-size: 200%;
+            margin: 20px 20px 0 20px;
+            color:#F2FAFF;
+        
+        }
+        
+        nav {
+            float:left;
+            color:#F2FAFF;
+        }
+        
+        nav > ul > li {
+        
+            font-size: 100%;
+            color:#F2FAFF
+        }
+        
+}
 
 
 
@@ -566,20 +593,25 @@ button {
 
 #logo {
     float:left;
-    font-size: 200%;
-    margin: 20px 20px 0 20px;
+    font-size: 175%;
+    margin: 10px 5px 0 5px;
     color:#F2FAFF;
 
 }
 
 nav {
+    margin:0;
     float:left;
     color:#F2FAFF;
 }
 
+nav > ul {
+    padding: 5px;
+}
+
 nav > ul > li {
 
-    font-size: 100%;
+    font-size: 80%;
     color:#F2FAFF
 }
 
@@ -600,20 +632,21 @@ nav > ul > li {
 #summary {
   width: 100%;
   margin: 0 auto;
-  padding: 10px 0 20px 5px;
+  padding: 10px 0 20px 0;
   line-height: 1.5em;
 }
 
-/*
+
 .pics {
-    width:200px;
-    height: 200px;
+    width:175px;
+    height:175px;
     border-radius: 5%;
     object-fit: cover;
     }
-*/
+
     footer {
         width:100%;
+        height:100%;
     }
 
     #social {
@@ -631,7 +664,7 @@ nav > ul > li {
     }
     
     #social > ul {
-    
+        padding: 2px;
     }
     
     #social > ul > li {
