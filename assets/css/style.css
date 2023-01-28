@@ -109,6 +109,7 @@ a:hover {
 
 #summary {
   padding: 0 100px;
+  line-height: 1.5em;
 }
 
 
@@ -538,9 +539,16 @@ button {
 
 /*  responsive media queries */ 
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 500px) {
   body {
-    width: 450px;
+    max-width: 450px;
 
   }
 
@@ -579,4 +587,16 @@ nav > ul > li {
     margin-top: 175px; 
     padding: 0;
   }
+
+  #summary-div {
+    max-width: 100%;
+    padding:0;
+    text-align:center;
+    color:#F2FAFF;
+    }
+
+#summary {
+  padding: 20px;
+  line-height: 1.5em;
+}
 }
