@@ -553,7 +553,7 @@ button {
   }
 
   #top {
-    width:100%;
+    max-width:100%;
     max-height: 175px;
     background-color: #546372;
     position:fixed;
@@ -588,14 +588,33 @@ nav > ul > li {
   }
 
   #summary-div {
-    max-width: 100%;
+    width: 300px;
     padding:0;
-    text-align:center;
+    margin: 0 auto;
     color:#F2FAFF;
     }
 
 #summary {
-  padding: 20px;
+    width: 300px;
+  margin: 0 auto;
+  padding: 10px 0 20px 5px;
   line-height: 1.5em;
 }
+
+#gallery {
+    box-sizing: border-box;
+    display:flexbox;
+    flex-direction: column;
+    /*typically justify-content: center; and align-items: center; would be used to center images in a flex box, however it doesn't work for me here when I use it on the parent div. I am unsure why. It works ok with text-align: cener; so I will use that*/
+    text-align: center;
+}
+
+
+.pics {
+    width:200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+    }
+
 }
