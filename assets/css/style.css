@@ -78,8 +78,9 @@ a:hover {
 }
 
 #ad { 
-    width:1450px;
-    padding:10px 20px;
+    width: 100%    !important;
+    height: auto   !important;
+    padding:10px auto;
    
 }
 
@@ -572,7 +573,6 @@ button {
 
 nav {
     color:#F2FAFF;
-    margin-right: 175px;
 }
 
 nav > ul > li {
@@ -583,7 +583,8 @@ nav > ul > li {
 
 
   #ad {
-    width: 300px;
+  width: 100%    !important;
+  height: auto   !important;
     margin:175px 0 40px;
   }
 
@@ -601,14 +602,14 @@ nav > ul > li {
   line-height: 1.5em;
 }
 
-
+/*
 .pics {
     width:200px;
     height: 200px;
     border-radius: 5%;
     object-fit: cover;
     }
-
+*/
     footer {
         width:100%;
     }
