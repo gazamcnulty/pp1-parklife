@@ -595,18 +595,10 @@ nav > ul > li {
     }
 
 #summary {
-    width: 300px;
+  width: 100%;
   margin: 0 auto;
   padding: 10px 0 20px 5px;
   line-height: 1.5em;
-}
-
-#gallery {
-    box-sizing: border-box;
-    display:flexbox;
-    flex-direction: column;
-    /*typically justify-content: center; and align-items: center; would be used to center images in a flex box, however it doesn't work for me here when I use it on the parent div. I am unsure why. It works ok with text-align: cener; so I will use that*/
-    text-align: center;
 }
 
 
@@ -617,4 +609,35 @@ nav > ul > li {
     object-fit: cover;
     }
 
+    footer {
+        width:100%;
+    }
+
+    #social {
+        width: 450px;
+        max-height: 150px;
+        align-items: center;
+        padding-top: 30px;
+        background-color: #546372;
+        font-size:100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    #social-links {
+        margin-top: 55px;
+        margin-right: 175px;
+    }
+    
+    #social > ul {
+    
+    }
+    
+    #social > ul > li {
+    
+        display:inline;
+        text-decoration: none;
+
+    }
+    
 }
