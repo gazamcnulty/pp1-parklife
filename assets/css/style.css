@@ -584,8 +584,7 @@ nav > ul > li {
 
   #ad {
     width: 300px;
-    margin-top: 175px; 
-    padding: 0;
+    margin:175px 0 40px;
   }
 
   #summary-div {
