@@ -590,7 +590,7 @@ button {
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 420px) {
   body {
     max-width: 450px;
 
@@ -635,7 +635,7 @@ nav > ul > li {
   #ad {
   width: 100%    !important;
   height: auto   !important;
-    margin:175px 0 40px;
+  margin: 120px 0 40px;
   }
 
   #summary-div {
