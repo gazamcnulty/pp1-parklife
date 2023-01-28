@@ -83,22 +83,7 @@ a:hover {
    
 }
 
-/*
-#window1 {
-    width:100%;
-    height: 500px;
-    background: url('../images/window3.jpeg');
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    overflow: hidden;
-}
 
-#window1 div {
-    width: 100%;
-    height: 500px;
-}
-*/
 
  #summary-div {
     max-width: 100%;
@@ -143,7 +128,7 @@ a:hover {
 
 #social {
     width: 100%;
-    height: 200px;
+    height: 150px;
     align-items: center;
     padding-top: 30px;
     background-color: #546372;
@@ -541,16 +526,33 @@ button {
 
 
 @media only screen and (min-width: 1700px) {
-    #top {
-        height: 180px;
+ 
+
+    #logo {
+        font-size: 400%;
+
+    
+    }
+    
+
+    
+    nav > ul > li {
+
+        font-size: 250%;
+
     }
 
+
     #summary {
-        padding: 0 100px;
         line-height: 2em;
         font-size: 150%;
       }
- 
+      
+      #social > ul > li {
+    
+        font-size: 150%;
+
+    }
 }
 
 
