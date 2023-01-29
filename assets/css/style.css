@@ -191,24 +191,14 @@ a:hover {
 
 #about-video {
     width:100%;
-    /*
-    margin:0 auto;
-    width: 50%;
-    height:auto;
-    padding: 0 1750px;
-    /*
-    max-width: 60%  !important;
-    height: auto   !important;
-    padding:10px auto;
-    text-align: center;
-    */
 }
 
 
 #area {
+    background-color: red;
     width:100%;
     display: block;
-    height: 400px;
+    height: 550px;
     margin:0;
 }
 
@@ -221,6 +211,7 @@ a:hover {
 #area-right {
     background:url(../images/street.jpeg);
     background-position: center;
+    background-repeat: no;
     width:50%;
     height:100%;
     float:right;
@@ -233,9 +224,10 @@ a:hover {
 }
 
 #dog {
+    background-color: pink;
     width:100%;
     display: block;
-    height: 400px;
+    height: 550px;
     margin:0;
 }
 
@@ -262,7 +254,7 @@ a:hover {
 #coffee {
     width:100%;
     display: block;
-    height: 400px;
+    height: 550px;
     margin:0;
 }
 
@@ -289,7 +281,7 @@ a:hover {
 #bake {
     width:100%;
     display: block;
-    height: 400px;
+    height: 550px;
     margin:0;
 }
 
@@ -318,7 +310,7 @@ a:hover {
 #food {
     width:100%;
     display: block;
-    height: 400px;
+    height: 550px;
     margin:0;
 }
 
