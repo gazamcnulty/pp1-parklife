@@ -224,7 +224,6 @@ a:hover {
 }
 
 #dog {
-    background-color: pink;
     width:100%;
     display: block;
     height: 550px;
@@ -573,6 +572,9 @@ button {
 
 
 @media only screen and (max-width: 800px) {
+
+    /*index*/
+
     .pics {
         width:250px;
         height:250px;
@@ -613,6 +615,153 @@ button {
         
             font-size: 80%;
             color:#F2FAFF
+        }
+        
+        /*about*/
+        /*in lower screen size, the left and right div layout ceases, instead becomes a standard vertical layout div by div. However, because of the layout I need to reverse the css for left and right sections, so that the pictures each come after the text in lower screen size*/
+
+        #area {
+            background-color: red;
+            width:100%;
+            display: block;
+        }
+        
+        #area-left {
+            width:100%;
+        }
+        
+        #area-right {
+            width:100%;
+            background:url(../images/street.jpeg);
+            background-position: center;
+            background-repeat: no;
+        }
+        #area-p {
+            color: #F2FAFF;
+            padding: 40px;
+            margin-top: 20px;
+        }
+        
+        #dog {
+            width:100%;
+            display: block;
+        }
+        
+        #dog-left {
+            width:0;
+            height:0;
+            background:none;
+            float:left;
+        }
+        
+        #dog-right {
+            background:none;
+            width:100%;
+            /*background:url(../images/pooch1.jpeg);
+            background-position: center;
+            width:100%;
+            float:left;*/
+
+            
+        }
+
+        #dog-hidden {
+            background:url(../images/pooch1.jpeg);
+            background-position: center;
+            width:100%;
+            height: 500px;
+            float:left;
+        }
+        
+        #dog-p {
+            color: #F2FAFF;
+            padding: 40px;
+            margin-top: 20px;
+            line-height: 2em;
+        }
+        
+        #coffee {
+            width:100%;
+            display: block;
+            height: 550px;
+            margin:0;
+        }
+        
+        #coffee-left {
+            width:100%;
+           
+        }
+        
+        #coffee-right {
+            background:url(../images/coffee3.jpeg);
+            background-position: center;
+            width:100%;
+            height:100%;
+            float:right;
+        }
+        
+        #coffee-p {
+            color: #F2FAFF;
+            padding: 40px;
+            margin-top: 20px;
+            line-height: 2em;
+        }
+        
+        #bake {
+            width:100%;
+            display: block;
+            height: 550px;
+            margin:0;
+        }
+        
+        #bake-left {
+            background:url(../images/sandwich1.jpeg);
+            background-position: center;
+            width:100%;
+            height:100%;
+            float:left;
+        }
+        
+        #bake-right {
+            width:100%;
+            float:right;
+        }
+        
+        
+        #bake-p {
+            color: #F2FAFF;
+            padding: 40px;
+            margin-top: 20px;
+            line-height: 2em;
+        }
+        
+        
+        #food {
+            width:100%;
+            display: block;
+            height: 550px;
+            margin:0;
+        }
+        
+        #food-left {
+            width:100%;
+            float:left;
+        }
+        
+        #food-right {
+            background:url(../images/breakfast2.jpeg);
+            background-position: center;
+            width:100%;
+            height:100%;
+            float:right;
+        }
+        
+        
+        #food-p {
+            color: #F2FAFF;
+            padding: 70px 40px;
+            margin-top: 20px;
+            line-height: 2em;
         }
         
         
