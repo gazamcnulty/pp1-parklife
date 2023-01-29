@@ -183,7 +183,7 @@ a:hover {
 
 #video {
     margin:0 auto 175px auto;
-    width:700px;
+    width:70%;
     /*
     margin: 0 100px;
     */
@@ -195,7 +195,6 @@ a:hover {
 
 
 #area {
-    background-color: red;
     width:100%;
     display: block;
     height: 550px;
@@ -619,6 +618,18 @@ button {
         
         /*about*/
         /*in lower screen size, the left and right div layout ceases, instead becomes a standard vertical layout div by div. However, because of the layout I need to reverse the css for left and right sections, so that the pictures each come after the text in lower screen size*/
+        
+        #video {
+            margin:0 auto 175px auto;
+            width:70%;
+            /*
+            margin: 0 100px;
+            */
+        }
+        
+        #about-video {
+            width:100%;
+        }
 
         #area {
             background-color: red;
@@ -710,23 +721,29 @@ button {
         #bake {
             width:100%;
             display: block;
-            height: 550px;
-            margin:0;
         }
         
         #bake-left {
-            background:url(../images/sandwich1.jpeg);
-            background-position: center;
-            width:100%;
-            height:100%;
+            width:0;
+            height:0;
+            background:none;
             float:left;
         }
         
         #bake-right {
+            background:none;
             width:100%;
-            float:right;
+
+            
         }
-        
+
+        #bake-hidden {
+            background:url(../images/sandwich1.jpeg);
+            background-position: center;
+            width:100%;
+            height: 500px;
+            float:left;
+        }
         
         #bake-p {
             color: #F2FAFF;
@@ -762,6 +779,41 @@ button {
             padding: 70px 40px;
             margin-top: 20px;
             line-height: 2em;
+        }
+        
+        #goals-ethics {
+            width:100%;
+            color:#F2FAFF;
+            display: block;
+            height: auto;
+            margin:40px 0;
+        }
+        
+        #goals-ethics-left {
+        
+            width:100%;
+            height:100%;
+            float:left;
+            padding:20px;
+        }
+        
+        #goals {
+            width: 75%;
+            padding:10px;
+            margin:0;
+        }
+        
+        #goals-ethics-right {
+        
+            width:100%;
+            float:left;
+            padding:20px;
+        }
+        
+        #ethics{
+            width: 75%;
+            padding:10px;
+            margin:0;
         }
         
         
