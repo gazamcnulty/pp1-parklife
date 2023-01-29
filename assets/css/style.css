@@ -564,7 +564,9 @@ button {
 
 @media only screen and (max-width: 1000px) {
   p {
-        line-height: 1em !important;
+        line-height: 1.5em !important;
+        padding:0;
+        margin:0;
     } 
 }
 
