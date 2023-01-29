@@ -173,7 +173,7 @@ a:hover {
 
 
 #intro {
-    width:100%;
+    width:75%;
     margin: 175px auto;
     display: block;
     text-align: center;
@@ -561,6 +561,13 @@ button {
 
     }
 }
+
+@media only screen and (max-width: 1000px) {
+  p {
+        line-height: 1em !important;
+    } 
+}
+
 
 
 @media only screen and (max-width: 800px) {
