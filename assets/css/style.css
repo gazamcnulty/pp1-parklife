@@ -674,6 +674,7 @@ button {
         
         #dog-right {
             float:none;
+            width:100%;
             
         }
         #dog-hidden {
@@ -687,6 +688,7 @@ button {
         #dog-p {
             color: #F2FAFF;
             padding: 0;
+            width:100%;
             margin-top: 20px;
             float:none;
         }
