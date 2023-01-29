@@ -173,20 +173,35 @@ a:hover {
 
 
 #intro {
+    width:100%;
+    margin: 175px auto;
+    display: block;
     text-align: center;
     color:#F2FAFF;
     background-color: #778da2;
-    padding: 200px 100px 100px 100px;
 }
 
 #video {
-    width:100%;
-    display: block;
-    text-align: center;
+    margin:0 auto 175px auto;
+    width:700px;
+    /*
+    margin: 0 100px;
+    */
 }
 
 #about-video {
-    margin-bottom: 150px;
+    width:100%;
+    /*
+    margin:0 auto;
+    width: 50%;
+    height:auto;
+    padding: 0 1750px;
+    /*
+    max-width: 60%  !important;
+    height: auto   !important;
+    padding:10px auto;
+    text-align: center;
+    */
 }
 
 
@@ -648,8 +663,7 @@ nav > ul > li {
 
 
   #ad {
-  width: 100%    !important;
-  height: auto   !important;
+
   margin: 120px 0 40px;
   }
 
