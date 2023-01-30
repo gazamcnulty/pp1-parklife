@@ -640,7 +640,7 @@ button {
         #area {
             background-color: red;
             width:100%;
-            height: 800px;
+            height: 1400px;
             display: block;
             margin: 30px auto;
         }
@@ -665,7 +665,7 @@ button {
         }
         
         #dog {
-            height: 800px;
+            height: 1400px;
             float:none;
             background-color: pink;
             display: block;
@@ -702,7 +702,7 @@ button {
         
         #coffee {
             width:100%;
-            height: 800px;
+            height: 1700px;
             float:none;
             display: block;
             margin: 30px auto;
@@ -732,7 +732,7 @@ button {
         
         #bake {
             width:100%;
-            height: 800px;
+            height: 1700px;
             margin:  40px auto 30px auto;
             display: block;
             float:none;
@@ -772,7 +772,7 @@ button {
         #food {
             width:100%;
             display: block;
-            height: 800px;
+            height: 1400px;
             margin: 30px auto;
             float:none;
         }
