@@ -938,8 +938,27 @@ button {
     }
 
     #menu {
-        height: 2400px;
+        height: auto;
         margin: 40px 0;
+    }
+
+    
+    #toasties {
+        float:none;
+        width: 60%;
+        margin:  70px auto;
+    }
+
+    #breakfast {
+        float:none;
+        width: 60%;
+        margin:  70px auto;
+    }
+
+    #drinks {
+        float:none;
+        width: 60%;
+        margin:  70px auto;
     }
 
 
@@ -947,8 +966,6 @@ button {
         margin:auto;
     }
 }
-
-
 
 
 
@@ -1147,5 +1164,14 @@ nav > ul > li {
         height: 200px;
     }
 
+ /*menu*/
+
+
+
+
 } 
+
+
+
+
 
