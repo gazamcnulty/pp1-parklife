@@ -1068,9 +1068,19 @@ nav > ul > li {
 
     #contact {
 
-        height: 1600px;
+        height: 1300px;
     }
     
+    #form {
+        width:90%;
+        margin-bottom: 40px;
+    }
+
+
+    #map-container {
+        width:90%;
+    }
+
     #map {
         height: 200px;
     }
