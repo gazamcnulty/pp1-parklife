@@ -484,7 +484,7 @@ a:hover {
 #map {
     width: 80%;
     height: 400px;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 iframe {
@@ -497,7 +497,7 @@ iframe {
 }
 
 #contact-info > p {
-    margin: 0;
+    margin: 10px;
 }
 
 #form-1 {
@@ -885,6 +885,10 @@ button {
         float: none;
         color:#F2FAFF;
     }
+
+    #map {
+        height: 300px;
+    }
     
     
 }
@@ -1060,4 +1064,16 @@ nav > ul > li {
         float:none;
     }
     
-}
+/* contact */
+
+    #contact {
+
+        height: 1600px;
+    }
+    
+    #map {
+        height: 200px;
+    }
+
+} 
+
