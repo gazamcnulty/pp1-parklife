@@ -485,10 +485,9 @@ a:hover {
 #form {
     background-color: #546372;
     color:#F2FAFF;
-    border: solid 2px grey;
     width: 30%;
     float: left;
-    margin: 10px;
+    margin: 20px 0 20px 60px;
     padding: 10px;
     border-radius: 15px;
 }
@@ -496,7 +495,7 @@ a:hover {
 #map-container {
     background-color: #546372;
     width: 45%;
-    margin:10px;
+    margin: 20px 60px 20px 0;
     float: right;
     color:#F2FAFF;
     padding: 10px;
@@ -607,6 +606,7 @@ button {
     .menu-p {
         line-height: 1em;
     }
+    
 
 }
 
@@ -921,7 +921,7 @@ button {
         border: solid 2px grey;
         width: 75%;
         float: none;
-        margin: 0 auto;
+        margin: 40px auto;
     }
     
     #map-container {
