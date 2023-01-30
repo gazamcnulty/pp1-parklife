@@ -11,6 +11,8 @@ body {
     padding: 0;
 }
 
+
+
 /*
 * {
     margin: 0;
@@ -544,7 +546,17 @@ button {
 
 
 
+
 /*  responsive media queries */ 
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 1700px) {
@@ -579,11 +591,28 @@ button {
 
 @media only screen and (max-width: 1000px) {
   p {
-        line-height: 1.5em !important;
+        line-height: 1.5em;
         padding:0;
         margin:0;
     } 
+
+    .menu-p {
+        line-height: 1em;
+    }
+
+    #menu {
+        height: 1600px;
+    }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -902,8 +931,29 @@ button {
         height: 300px;
     }
     
-    
+    /*menu*/
+
+    #menu-h2 {
+        margin-left: 20px;
+    }
+
+    #menu {
+        height: 2400px;
+        margin: 40px 0;
+    }
+
+
+    #allergens {
+        margin:auto;
+    }
 }
+
+
+
+
+
+
+
 
 
 
