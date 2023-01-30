@@ -619,6 +619,31 @@ button {
             font-size: 80%;
             color:#F2FAFF
         }
+
+        #social {
+            width:100%;
+            height: 100%;
+            background-color: #546372;
+            padding: 0;
+            font-size:100%;
+        
+            }
+            
+            #social-links {
+                /*margin-top: 55px;
+                margin-right: 175px;*/
+            }
+            
+            #social > ul {
+                padding: 2px;
+            }
+            
+            #social > ul > li {
+            
+                display:block;
+                text-decoration: none;
+        
+            }
         
         /*about*/
         /*in lower screen size, the left and right div layout ceases, instead becomes a standard vertical layout div by div. However, because of the layout I need to reverse the css for left and right sections, so that the pictures each come after the text in lower screen size*/
@@ -802,7 +827,7 @@ button {
             color:#F2FAFF;
             display: block;
             height: auto;
-            margin: 30px auto;
+            margin:0 auto;
         }
         
         #goals-ethics-left {
@@ -810,26 +835,24 @@ button {
             width:100%;
             height:100%;
             float:none;
-            padding:20px;
         }
         
         #goals {
             width: 75%;
-            padding:10px;
-            margin:0;
+            padding:0;
+            margin:0 auto;
         }
         
         #goals-ethics-right {
         
             width:100%;
             float:none;
-            padding:20px;
+
         }
         
         #ethics{
             width: 75%;
-            padding:10px;
-            margin:0;
+            margin:0 auto;
         }
         
       
@@ -839,9 +862,8 @@ button {
 
 
 @media only screen and (max-width: 450px) {
-  body {
+  * {
     max-width: 450px;
-
   }
 
   #top {
@@ -916,7 +938,7 @@ nav > ul > li {
     width:100%;
     height: 100%;
     background-color: #546372;
-    padding: 30px 10px;
+    padding: 0;
     font-size:100%;
 
     }
