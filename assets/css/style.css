@@ -461,24 +461,24 @@ a:hover {
     width: 100%;
     height:700px;
     padding-top: 150px;
+    margin-bottom: 50px;
 }
 
 #form {
-    background-color: #F2FAFF;
-    color:#778da2;
+    background-color: #546372;
+    color:#F2FAFF;
     border: solid 2px grey;
     width: 30%;
     float: left;
-    height: 650px;
     margin: 10px;
 }
 
 #map-container {
-    background-color: #F2FAFF;
-    height:650px;
+    background-color: #546372;
     width: 45%;
+    margin:10px;
     float: right;
-    color:#778da2;
+    color:#F2FAFF;
 }
 
 #map {
