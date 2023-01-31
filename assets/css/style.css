@@ -198,6 +198,11 @@ a:hover {
     width:100%;
 }
 
+#about-h2 {
+    text-align: center;
+    color: #F2FAFF;
+    margin-bottom: 100px;
+}
 
 #area {
     width:100%;
