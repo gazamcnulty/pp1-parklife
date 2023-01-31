@@ -210,9 +210,11 @@ a:hover {
 }
 
 #area-right {
-    background:url(../images/street.jpeg);
+    background:url(../images/area3.jpeg.jpg);
     background-position: center;
-    background-repeat: no;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
     width:50%;
     height:100%;
     float:right;
@@ -232,8 +234,11 @@ a:hover {
 }
 
 #dog-left {
-    background:url(../images/pooch1.jpeg);
+    background:url(../images/labrador.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
     width:50%;
     height:100%;
     float:left;
@@ -264,8 +269,11 @@ a:hover {
 }
 
 #coffee-right {
-    background:url(../images/coffee3.jpeg);
+    background:url(../images/espresso.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
     width:50%;
     height:100%;
     float:right;
@@ -286,8 +294,11 @@ a:hover {
 }
 
 #bake-left {
-    background:url(../images/sandwich1.jpeg);
+    background:url(../images/sourdough1.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
     width:50%;
     height:100%;
     float:left;
@@ -320,8 +331,10 @@ a:hover {
 }
 
 #food-right {
-    background:url(../images/breakfast2.jpeg);
+    background:url(../images/food1.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width:50%;
     height:100%;
     float:right;
@@ -596,6 +609,13 @@ button {
     }
 }
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 1000px) {
   p {
         line-height: 1.5em;
@@ -732,9 +752,10 @@ button {
             width:100%;
             height:50%;
             float:none;
-            background:url(../images/street.jpeg);
+            background:url(../images/area3.jpeg.jpg);
             background-position: center;
-            background-repeat: no;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         #area-p {
             color: #F2FAFF;
@@ -761,8 +782,10 @@ button {
             
         }
         #dog-hidden {
-            background:url(../images/pooch1.jpeg);
+            background:url(../images/labrador.jpeg);
             background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             width:100%;
             height:50%;
             float:none;
@@ -789,8 +812,10 @@ button {
         }
         
         #coffee-right {
-            background:url(../images/coffee3.jpeg);
+            background:url(../images/espresso.jpeg);
             background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             width:100%;
             height: 50%;
             margin-bottom: 40px;
@@ -827,8 +852,10 @@ button {
         }
 
         #bake-hidden {
-            background:url(../images/sandwich1.jpeg);
+            background:url(../images/sourdough1.jpeg);
             background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             width:100%;
             height:50%;
             float:none;
@@ -980,6 +1007,12 @@ button {
 
 
 
+
+
+
+
+
+
 @media only screen and (max-width: 450px) {
   * {
     max-width: 450px;
@@ -1097,9 +1130,6 @@ nav > ul > li {
         width:100%;
         height:35%;
         float:none;
-        background:url(../images/street.jpeg);
-        background-position: center;
-        background-repeat: no;
 }
 
 #dog {
@@ -1107,8 +1137,6 @@ nav > ul > li {
 }
 
 #dog-hidden {
-        background:url(../images/pooch1.jpeg);
-        background-position: center;
         width:100%;
         height:35%;
         float:none;
@@ -1118,8 +1146,6 @@ nav > ul > li {
 }
 
 #coffee-right {
-        background:url(../images/coffee3.jpeg);
-        background-position: center;
         width:100%;
         height:35%;
         margin-bottom: 40px;
@@ -1127,8 +1153,6 @@ nav > ul > li {
     }
 
 #bake-hidden {
-        background:url(../images/sandwich1.jpeg);
-        background-position: center;
         width:100%;
         height:35%;
         float:none;
@@ -1141,8 +1165,6 @@ nav > ul > li {
     }
 
 #food-right {
-        background:url(../images/breakfast2.jpeg);
-        background-position: center;
         width:100%;
         height:35%;
         float:none;
