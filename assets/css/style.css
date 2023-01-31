@@ -504,9 +504,14 @@ a:hover {
     margin: 20px 0 20px 60px;
     padding: 10px;
     border-radius: 15px;
+    line-height: 1em;
 }
 
 .form-p {
+    line-height: 1em;
+}
+
+.info {
     line-height: 1em;
 }
 
