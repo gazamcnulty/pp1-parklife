@@ -414,6 +414,10 @@ a:hover {
     height: 1600px;
 }
 
+.menu-p {
+    line-height: 1em;
+}
+
 #toasties {
     background-color:rgba(84, 99, 114, 0.5);
     width: 25%;
