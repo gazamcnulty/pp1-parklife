@@ -515,9 +515,9 @@ a:hover {
 
 #map-container {
     background-color: #546372;
-    width: 45%;
+    width: 30%;
     margin: 20px 60px 20px 0;
-    float: right;
+   float: right;
     color:#F2FAFF;
     padding: 10px;
     border-radius: 15px;
