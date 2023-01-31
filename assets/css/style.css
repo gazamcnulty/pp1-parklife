@@ -423,6 +423,15 @@ a:hover {
     border-radius: 15px;
 }
 
+#sandwich {
+    font-size: 150%;
+    color: #F2FAFF;
+}
+
+#toasties-h2 {
+    display: inline;
+}
+
 #toasties > ul > li {
     margin-bottom: 1em;
 
@@ -441,6 +450,14 @@ a:hover {
     border-radius: 15px;
 }
 
+#breakfast-h3 {
+    display: inline;
+}
+
+#bacon {
+    font-size: 150%;
+    color: #F2FAFF;
+}
 
 #breakfast > ul > li {
     margin-bottom: 1em;
@@ -454,6 +471,15 @@ a:hover {
     padding:10px;
     float: left;
     border-radius: 15px;
+}
+
+#drinks-icon {
+    font-size: 150%;
+    color: #F2FAFF;
+}
+
+#drinks-h3 {
+    display: inline;
 }
 
 #coffee-h4 {
