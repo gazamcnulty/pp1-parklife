@@ -36,6 +36,13 @@ p {
 
 }
 
+#heart {
+    float:left;
+    color:red;
+    font-size: 275%;
+    margin-top: 20px;
+}
+
 nav {
     float: right;
     margin: 20px 5px 0 0;
