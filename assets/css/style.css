@@ -16,12 +16,6 @@ p {
 }
 
 
-/*
-* {
-    margin: 0;
-    padding: 0;
-}*/
-
 /*header*/
 
 #top {
@@ -55,7 +49,7 @@ li {
 nav > ul > li {
     display:inline;
     font-size: 150%;
-    color:#F2FAFF
+
 }
 
 ul > li > a {
