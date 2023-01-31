@@ -506,9 +506,13 @@ a:hover {
     border-radius: 15px;
 }
 
+.form-p {
+    line-height: 1em;
+}
+
 #map-container {
     background-color: #546372;
-    width: 30%;
+    width: 45%;
     margin: 20px 60px 20px 0;
    float: right;
     color:#F2FAFF;
