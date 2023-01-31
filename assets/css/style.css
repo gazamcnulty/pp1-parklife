@@ -397,12 +397,14 @@ a:hover {
 
 
 #menu-h2 {
-    margin-top: 100px;
+    margin: 120px 0 0 100px;
+    color:#F2FAFF;
+    font-size: 200%;
 }
 
 #menu {
     color:#F2FAFF;
-    margin: 50px;
+    margin: 50px auto;
     padding:0;
     width: 100%;
     height: 1200px;
