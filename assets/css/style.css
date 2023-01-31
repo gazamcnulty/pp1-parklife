@@ -414,6 +414,10 @@ a:hover {
     height: 1600px;
 }
 
+.price {
+    font-weight: bolder;
+}
+
 .menu-p {
     line-height: 1em;
 }
