@@ -436,7 +436,7 @@ a:hover {
     color: #F2FAFF;
 }
 
-#toasties-h2 {
+.food-h {
     display: inline;
 }
 
@@ -458,9 +458,6 @@ a:hover {
     border-radius: 15px;
 }
 
-#breakfast-h3 {
-    display: inline;
-}
 
 #bacon {
     font-size: 150%;
@@ -486,9 +483,6 @@ a:hover {
     color: #F2FAFF;
 }
 
-#drinks-h3 {
-    display: inline;
-}
 
 #coffee-h4 {
 	margin: 1em 0;
