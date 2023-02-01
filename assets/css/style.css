@@ -97,22 +97,22 @@ a:hover {
 
 
 
- #summary-div {
-   width: 100%;
+#summary-div {
+    width: 100%;
     padding:100px 0;
     text-align:center;
     color:#F2FAFF;
-    }
+}
 
 #summary {
-  padding: 0 100px;
-  line-height: 1.5em;
+    padding: 0 100px;
+    line-height: 1.5em;
 }
 
 
 
 
-/*gallery*/
+/*gallery section of index.html*/
 
 
 
@@ -121,22 +121,31 @@ a:hover {
 
 
 #gallery {
+    /*using flexbox + box-sizing to style gallery images into a neat grid*/
     box-sizing: border-box;
     display:flexbox;
     flex-direction: column;
-    /*typically justify-content: center; and align-items: center; would be used to center images in a flex box, however it doesn't work for me here when I use it on the parent div. I am unsure why. It works ok with text-align: cener; so I will use that*/
+    /*typically 'justify-content:center;' and 'align-items:center;' would be used to center images in a flex box, however it doesn't work for me here when I use it on the parent div. I am unsure why. It works ok with 'text-align:center;' so I will use that*/
     text-align: center;
 }
 
 
 .pics {
-    width: 350px;
+    width: 350px;/*uniform width and height to make square*/
     height: 350px;
-    border-radius: 5%;
-    object-fit: cover;
+    border-radius: 5%;/*give a slight rounded edge to pictures*/
+    object-fit: cover;/*ensure space is filled by image*/
     }
 
-/*footer*/
+
+
+
+/*footer, on all pages*/
+
+
+
+
+
 
 #social {
     width: 100%;
@@ -146,16 +155,12 @@ a:hover {
     background-color: #546372;
     font-size:150%;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 0;/*ensures footer is always at the very bottom of the page*/
 }
 
 #social-links {
     margin-top: 55px;
     align-items: center;
-}
-
-#social > ul {
-
 }
 
 #social > ul > li {
@@ -165,17 +170,17 @@ a:hover {
     margin: 20px;
 }
 
-#social > ul > li > a {
-
-    /*padding: 0 20px;*/
-    /*margin: 20px;*/
-}
 
 
 
 
 
-/* about */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*about.html*/
 
 
 
