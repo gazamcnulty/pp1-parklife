@@ -641,6 +641,65 @@ button {
     left: 0;
     bottom: 0;
   }
+
+  #contact {
+    height: 1800px;
+    width: 2800px;
+    margin-top: 300px;
+    font-size: 200%;
+  }
+
+  #form {
+    width : 35%;
+  }
+
+  #map-container {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  #map {
+    width: 80%;
+    height: 800px;
+    margin: 10px auto;
+}
+
+  #contact-info {
+    font-size: 150%;
+  }
+
+  label {
+    font-size: 150%;
+  }
+
+  #about {
+    font-size: 150%;
+  }
+
+  #area {
+    height: 1400px;
+  }
+
+  #dog {
+    height: 1400px;
+  }
+
+  #coffee {
+    height: 1400px;
+  }
+
+  #food {
+    height: 1400px;
+  }
+
+  #bake {
+    height: 1400px;
+  }
+
+  #goals-ethics {
+    padding-bottom: 1000px;
+  }
+
 }
 
 
