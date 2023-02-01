@@ -1,7 +1,8 @@
 
+ /*import url from google fonts*/
  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Nixie+One&family=Source+Code+Pro&display=swap');
 
-
+/*base css for body + p of all pages, so there is a default css. only changed by more specific styling*/
 body {
     font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
     background-color: #778da2;
@@ -16,24 +17,34 @@ p {
 }
 
 
-/*header*/
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*header, on all pages*/
 
 #top {
     width:100%;
     background-color: #546372;
     position:fixed;
     top:0;
-    z-index: 1;
+    z-index: 1;/*higher z-index to ensure its always on top, even when scrolling down*/
 
 }
 
-
+/*Parklife Café logo and heart icon, on all pages*/
 #logo {
     font-size: 300%;
     float:left;
     margin: 20px 0 5px 5px;
     color:#F2FAFF;
-
 }
 
 #heart {
@@ -43,6 +54,7 @@ p {
     margin-top: 20px;
 }
 
+/*nav bar, on all pages*/
 nav {
     float: right;
     margin: 20px 5px 0 0;
@@ -65,12 +77,12 @@ ul > li > a {
 }
 
 a:hover {
-    color:#778da2;
+    color:#546372;
     background-color: #F2FAFF;
 }
 
 .thispage {
-    color:#778da2;
+    color:#546372;
     background-color: #F2FAFF;
 }
 
