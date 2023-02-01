@@ -150,7 +150,7 @@ a:hover {
 }
 
 #social > ul > li {
-
+    font-size: 150%;
     display:inline;
     text-decoration: none;
     margin: 20px;
