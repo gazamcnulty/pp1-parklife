@@ -8,7 +8,7 @@ body {
     background-color: #778da2;
     max-width: 2400px;
     z-index: 0;
-    margin: 0;
+    margin: 0 auto 0 auto;
     padding: 0;
 }
 
@@ -38,6 +38,7 @@ p {
     width:100%;
     background-color: #546372;
     position:fixed;
+    left:0;
     top:0;
     z-index: 1;/*higher z-index to ensure its always on top, even when scrolling down*/
 
@@ -605,6 +606,42 @@ button {
 
 
 
+@media only screen and (min-width: 3800px) {
+  p {
+    font-size: 175%;
+  }
+    
+  #menu {
+    height: 3000px;
+    width: 2800px;
+    font-size: 150%;
+    
+  }
+
+ #drinks {
+    font-size: 150%;
+ }
+  h2, h3, h4 {
+    font-size: 250%;
+  }
+
+  #allergens {
+    margin-bottom: 500px;
+    font-size: 150%;
+  }
+
+  #top {
+    font-size: 200%;
+  }
+
+  #social {
+    min-width: 3800px;
+    position: fixed;
+    font-size: 250%;
+    left: 0;
+    bottom: 0;
+  }
+}
 
 
 
@@ -623,8 +660,8 @@ button {
     }
 
     #summary {
-        line-height: 2em;
-        font-size: 150%;
+        line-height: 2.5em;
+        font-size: 200%;
       }
       
       #social > ul > li {
