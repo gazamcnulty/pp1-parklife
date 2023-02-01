@@ -582,10 +582,6 @@ iframe {
     margin-bottom: 5px;
 }
 
-.favourite {
-    display:block;
-    line-height: 2em;
-}
 
 #button {    
     text-align: center;
@@ -600,7 +596,7 @@ button {
 
 
 
-
+/*----------------------------------------------------------------------------------------------------------------------------*/
 /*  responsive media queries */ 
 
 
@@ -618,18 +614,11 @@ button {
 
     #logo {
         font-size: 400%;
-
-    
     }
-    
-
     
     nav > ul > li {
-
         font-size: 250%;
-
     }
-
 
     #summary {
         line-height: 2em;
@@ -637,9 +626,7 @@ button {
       }
       
       #social > ul > li {
-    
         font-size: 150%;
-
     }
 }
 
@@ -683,297 +670,287 @@ button {
         max-width: 800px;
     }
 
+
+    #top {
+        max-width:100%;
+        max-height: 175px;
+    }
+        
+        
+    #logo {
+        font-size: 175%;
+        margin: 10px 5px 0 5px;
+    }
+        
+    #heart {
+        font-size: 175%;
+        margin: 10px 0 0 5px;
+    }
+        
+    nav {
+        margin:0;
+        float:left;
+        color:#F2FAFF;
+    }
+        
+    nav > ul {
+        padding: 5px;
+    }
+        
+    nav > ul > li {
+        
+        font-size: 80%;
+        color:#F2FAFF
+    }
+
     .pics {
-        width:250px;
+        width:250px; /*give gallery pics a slightly smaller size on smaller screen*/
         height:250px;
-        border-radius: 5%;
-        object-fit: cover;
         }
 
-        #top {
-            max-width:100%;
-            max-height: 175px;
-            background-color: #546372;
-            position:fixed;
-            top:0;
-            z-index: 1;
-        
-        }
-        
-        
-        #logo {
-            float:left;
-            font-size: 175%;
-            margin: 10px 5px 0 5px;
-            color:#F2FAFF;
-        
-        }
-        
-        #heart {
-            font-size: 175%;
-            margin: 10px 0 0 5px;
-        }
-        
-        nav {
-            margin:0;
-            float:left;
-            color:#F2FAFF;
-        }
-        
-        nav > ul {
-            padding: 5px;
-        }
-        
-        nav > ul > li {
-        
-            font-size: 80%;
-            color:#F2FAFF
-        }
 
-        #social {
-            width:100%;
-            height: 100%;
-            background-color: #546372;
-            padding: 0;
-            font-size:100%;
-        
-            }
+    #social {
+        width:100%;
+        height: 100%;
+        background-color: #546372;
+        padding: 0;
+        font-size:100%;
+}
             
-            #social-links {
-                margin-bottom: 0;
-                /*margin-top: 55px;
-                margin-right: 175px;*/
-            }
+    #social-links {
+        margin-bottom: 0;
+    }
             
-            #social > ul {
-                padding: 2px;
-            }
+    #social > ul {
+        padding: 2px;
+    }
             
-            #social > ul > li {
-            
-                display:block;
-                text-decoration: none;
-        
-            }
+    #social > ul > li {
+        display:block;
+        text-decoration: none;
+        }
         
         /*about*/
         /*in lower screen size, the left and right div layout ceases, instead becomes a standard vertical layout div by div. However, because of the layout I need to reverse the css for left and right sections, so that the pictures each come after the text in lower screen size*/
         
-        #intro {
-            margin: 200px auto 100px auto;
-        }
+    #intro {
+         margin: 200px auto 100px auto;
+    }
 
-        #video {
-            margin:0 auto 100px auto;
-            width:70%;
-            /*
-            margin: 0 100px;
-            */
-        }
+    #video {
+        margin:0 auto 100px auto;
+        width:70%;
+    }
         
-        #about-video {
-            width:100%;
-        }
+    #about-video {
+        width:100%;
+    }
 
-        #area {
-            width:100%;
-            height: 1000px;
-            display: block;
-            margin: 30px auto;
-        }
+    #area {
+        width:100%;
+        height: 1000px;
+        display: block;
+        margin: 30px auto;
+    }
         
-        #area-left {
-            width:100%;
-            float:none;
-        }
+    #area-left {
+        width:100%;
+        float:none;
+    }
         
-        #area-right {
-            width:100%;
-            height:50%;
-            float:none;
-            background:url(../images/area3.jpeg.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        #area-p {
-            color: #F2FAFF;
-            padding: 40px;
-            margin-top: 20px;
-        }
+    #area-right {
+        width:100%;
+        height:50%;
+        float:none;
+        background:url(../images/area3.jpeg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #area-p {
+        color: #F2FAFF;
+        padding: 40px;
+        margin-top: 20px;
+    }
         
-        #dog {
-            height: 1000px;
-            float:none;
-            display: block;
-            margin: 30px auto;
-        }
+    #dog {
+        height: 1000px;
+        float:none;
+        display: block;
+        margin: 30px auto;
+    }
         
-        #dog-left {
-            width:0;
-            height:0;
-            background:none;
-        }
+    #dog-left {
+        width:0;
+        height:0;
+        background:none;
+    }
         
-        #dog-right {
-            float:none;
-            width:100%;
+    #dog-right {
+        float:none;
+        width:100%;
             
-        }
-        #dog-hidden {
-            background:url(../images/labrador.jpeg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width:100%;
-            height:50%;
-            float:none;
-        }
-        
-        #dog-p {
-            color: #F2FAFF;
-            padding: 40px;
-            margin-top: 20px;
-        }
-        
-        #coffee {
-            width:100%;
-            height: 1000px;
-            float:none;
-            display: block;
-            margin: 30px auto;
-        }
-        
-        #coffee-left {
-            width:100%;
-            float:none;
-           
-        }
-        
-        #coffee-right {
-            background:url(../images/espresso.jpeg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width:100%;
-            height: 50%;
-            margin-bottom: 40px;
-            float:none;
-        }
-        
-        #coffee-p {
-            color: #F2FAFF;
-            padding: 40px;
-            margin-top: 20px;
-            line-height: 1.5em;
-        }
-        
-        #bake {
-            width:100%;
-            height: 1000px;
-            margin:  40px auto 30px auto;
-            display: block;
-            float:none;
-        }
-        
-        #bake-left {
-            width:0;
-            height:0;
-            background:none;
-            float:none;
-        }
-        
-        #bake-right {
-            width:100%;
-            float:none;
+    }
 
-            
-        }
+    #dog-hidden {
+        background:url(../images/labrador.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:50%;
+        float:none;
+    }
+        
+    #dog-p {
+        color: #F2FAFF;
+        padding: 40px;
+        margin-top: 20px;
+    }
+        
+    #coffee {
+        width:100%;
+        height: 1000px;
+        float:none;
+        display: block;
+        margin: 30px auto;
+    }
+        
+    #coffee-left {
+        width:100%;
+        float:none;  
+    }
+        
+    #coffee-right {
+        background:url(../images/espresso.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height: 50%;
+        margin-bottom: 40px;
+        float:none;
+    }
+        
+    #coffee-p {
+        color: #F2FAFF;
+        padding: 40px;
+        margin-top: 20px;
+        line-height: 1.5em;
+    }
+        
+    #bake {
+        width:100%;
+        height: 1000px;
+        margin:  40px auto 30px auto;
+        display: block;
+        float:none;
+    }
+        
+    #bake-left {
+        width:0;
+        height:0;
+        background:none;
+        float:none;
+    }
+        
+    #bake-right {
+        width:100%;
+        float:none;   
+    }
 
-        #bake-hidden {
-            background:url(../images/sourdough1.jpeg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width:100%;
-            height:50%;
-            float:none;
+    #bake-hidden {
+        background:url(../images/sourdough1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:50%;
+        float:none;
+}
+        
+    #bake-p {
+        color: #F2FAFF;
+        padding: 40px;
+        margin-top: 20px;
+        line-height: 2em;
+        float:none;
+    }
+        
+        
+    #food {
+        width:100%;
+        display: block;
+        height: 1000px;
+         margin: 30px auto;
+        float:none;
+    }
+        
+    #food-left {
+        width:100%;
+        float:none;
+    }
+        
+    #food-right {
+        background:url(../images/breakfast2.jpeg);
+        background-position: center;
+        width:100%;
+        height:50%;
+        float:none;
+    }
+        
+        
+    #food-p {
+        color: #F2FAFF;
+        padding: 70px 40px;
+        margin-top: 20px;
+        line-height: 2em;
+    }
+        
+    #goals-ethics {
+        width:100%;
+        color:#F2FAFF;
+        display: block;
+        height: auto;
+        margin:0 auto;
+    }
+        
+    #goals-ethics-left {
+        width:100%;
+        height:100%;
+        float:none;
+    }
+        
+    #goals {
+        width: 75%;
+        padding:0;
+        margin:0 auto;
+    }
+        
+    #goals-ethics-right {
+        width:100%;
+        float:none;
         }
         
-        #bake-p {
-            color: #F2FAFF;
-            padding: 40px;
-            margin-top: 20px;
-            line-height: 2em;
-            float:none;
-        }
-        
-        
-        #food {
-            width:100%;
-            display: block;
-            height: 1000px;
-            margin: 30px auto;
-            float:none;
-        }
-        
-        #food-left {
-            width:100%;
-            float:none;
-        }
-        
-        #food-right {
-            background:url(../images/breakfast2.jpeg);
-            background-position: center;
-            width:100%;
-            height:50%;
-            float:none;
-        }
-        
-        
-        #food-p {
-            color: #F2FAFF;
-            padding: 70px 40px;
-            margin-top: 20px;
-            line-height: 2em;
-        }
-        
-        #goals-ethics {
-            width:100%;
-            color:#F2FAFF;
-            display: block;
-            height: auto;
-            margin:0 auto;
-        }
-        
-        #goals-ethics-left {
-        
-            width:100%;
-            height:100%;
-            float:none;
-        }
-        
-        #goals {
-            width: 75%;
-            padding:0;
-            margin:0 auto;
-        }
-        
-        #goals-ethics-right {
-        
-            width:100%;
-            float:none;
-
-        }
-        
-        #ethics{
+    #ethics{
             width: 75%;
             margin:0 auto;
         }
-        
+
+
+
+
       /*contact us*/
 
-      #contact {
+
+
+
+
+
+
+
+    #contact {
         display:block;
         width: 100%;
         padding-top: 150px;
