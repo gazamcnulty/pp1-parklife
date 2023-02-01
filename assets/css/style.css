@@ -221,26 +221,26 @@ a:hover {
     margin:0;
 }
 
+/*the format below , is to have the screen divided horizontally in 2 halves, one with info text the other with an image. the text and image will swap from left to right , between sections. this was done with left div and right divs. because html shows elements in order of placement by default, the swapping nature of left and right divs created a problem for smaller screen responsiveness. i fixed this by adding a 3rd 'hidden' div which would only show on smaller screen while also hiding the second div causing the problem*/
+
 #area-left {
-    width:50%;
+    width:50%;/*ensures it takes up exactly half of the page*/
     float:left;
     text-align: left;
 }
 
 #area-right {
-    background:url(../images/area3.jpeg.jpg);
+    background:url(../images/area3.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width:50%;
-    width:50%;
+    width:50%;/*ensures it takes up exactly half of the page*/
     height:100%;
     float:right;
 }
 #area-p {
     color: #F2FAFF;
-    padding:  100px 40px;
-    margin-top: 20px;
+    margin: 100px 50px 0 50px;
     line-height: 2em;
 }
 
