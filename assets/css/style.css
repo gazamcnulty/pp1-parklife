@@ -690,7 +690,6 @@ button {
     nav {
         margin:0;
         float:left;
-        color:#F2FAFF;
     }
         
     nav > ul {
@@ -700,13 +699,12 @@ button {
     nav > ul > li {
         
         font-size: 80%;
-        color:#F2FAFF
     }
 
     .pics {
         width:250px; /*give gallery pics a slightly smaller size on smaller screen*/
         height:250px;
-        }
+    }
 
 
     #social {
@@ -762,7 +760,7 @@ button {
         width:100%;
         height:50%;
         float:none;
-        background:url(../images/area3.jpeg.jpg);
+        background:url(../images/area3.jpeg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -883,7 +881,7 @@ button {
         width:100%;
         display: block;
         height: 1000px;
-         margin: 30px auto;
+         margin: 30px auto 50px auto;
         float:none;
     }
         
@@ -897,6 +895,7 @@ button {
         background-position: center;
         width:100%;
         height:50%;
+        margin-bottom: 40px;
         float:none;
     }
         
@@ -913,7 +912,7 @@ button {
         color:#F2FAFF;
         display: block;
         height: auto;
-        margin:0 auto;
+        margin:80px auto 20px auto;
     }
         
     #goals-ethics-left {
@@ -1030,13 +1029,13 @@ button {
 
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 475px) {
   * {
-    max-width: 450px;
+    max-width: 475px;
   }
 
   p {
-    line-height: 1em;
+    line-height: 1em!important;
   }
 
   #top {
