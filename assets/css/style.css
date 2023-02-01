@@ -240,8 +240,8 @@ a:hover {
 }
 #area-p {
     color: #F2FAFF;
-    margin: 40px;
-    line-height: 2em;
+    margin: 40px;/*margin needs to be low enough to stop the div overlapping below and disrupting the left/right format*/
+
 }
 
 #dog {
@@ -270,7 +270,6 @@ a:hover {
 #dog-p {
     color: #F2FAFF;
     margin: 40px;
-    line-height: 2em;
 }
 
 #coffee {
@@ -299,7 +298,6 @@ a:hover {
 #coffee-p {
     color: #F2FAFF;
     margin: 40px;
-    line-height: 2em;
 }
 
 #bake {
@@ -329,7 +327,6 @@ a:hover {
 #bake-p {
     color: #F2FAFF;
     margin: 40px;
-    line-height: 2em;
 }
 
 
@@ -359,7 +356,6 @@ a:hover {
 #food-p {
     color: #F2FAFF;
     margin: 40px;
-    line-height: 2em;
 }
 
 
@@ -398,7 +394,7 @@ a:hover {
 
 
 
-
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 /*menu*/
 
