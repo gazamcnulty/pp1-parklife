@@ -26,6 +26,9 @@ p {
 
 
 
+/*index.html*/
+
+
 
 
 /*header, on all pages*/
@@ -62,46 +65,40 @@ nav {
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none;/*remove dash/line next to list item*/
 }
 
 nav > ul > li {
-    display:inline;
+    display:inline; /*make nav bar horizontal instead of vertical*/
     font-size: 150%;
 
 }
 
 ul > li > a {
     color:#F2FAFF;
-    text-decoration: none;
+    text-decoration: none;/*remove default anchor element styling*/
 }
 
 a:hover {
     color:#546372;
-    background-color: #F2FAFF;
+    background-color: #F2FAFF;/*reverse colors on hover, to make clear its a clickable link*/
 }
 
 .thispage {
     color:#546372;
-    background-color: #F2FAFF;
+    background-color: #F2FAFF;/*this class will be changed page to page, placed in the current page element so the current page is always highlighted to user*/
 }
 
-/*hero-image*/
-/*added as placeholder, I may remove if I have time to experiment with background video instead*/
-
-
-
-
+/*banner video*/
 #ad { 
-    width: 100%    !important;
+    width: 100%    !important;/*important makes it so the banner video always takes up 100% of screen*/
     height: auto   !important;
-   
 }
 
 
 
  #summary-div {
-    max-width: 100%;
+   width: 100%;
     padding:100px 0;
     text-align:center;
     color:#F2FAFF;
