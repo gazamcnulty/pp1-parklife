@@ -433,13 +433,8 @@ a:hover {
     color: #F2FAFF;
 }
 
-.food-h {
-    display: inline;
-}
-
 #toasties > ul > li {
     margin-bottom: 1em;
-
 }
 
 .menu-list {
@@ -481,17 +476,11 @@ a:hover {
 }
 
 
-#coffee-h4 {
+h4 {
 	margin: 1em 0;
+    display: inline;
 	}
-
-#tea-h4 {
-    margin: 1em 0;
-    }
-
-#cold-h4 {
-    margin: 1em 0;
-    }   
+  
 
 #allergens {
     background-color: rgba(84, 99, 114, 0.5);
