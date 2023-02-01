@@ -14,6 +14,7 @@ body {
 
 p {
     line-height: 2em;
+    color: #F2FAFF;
 }
 
 
@@ -101,7 +102,6 @@ a:hover {
     width: 100%;
     padding:100px 0;
     text-align:center;
-    color:#F2FAFF;
 }
 
 #summary {
@@ -195,7 +195,6 @@ a:hover {
     width:75%;
     margin: 175px auto;
     text-align: center;
-    color:#F2FAFF;
     background-color: #778da2;
 }
 
@@ -239,7 +238,6 @@ a:hover {
     float:right;
 }
 #area-p {
-    color: #F2FAFF;
     margin: 40px;/*margin needs to be low enough to stop the div overlapping below and disrupting the left/right format*/
 
 }
@@ -268,7 +266,6 @@ a:hover {
 }
 
 #dog-p {
-    color: #F2FAFF;
     margin: 40px;
 }
 
@@ -296,7 +293,6 @@ a:hover {
 }
 
 #coffee-p {
-    color: #F2FAFF;
     margin: 40px;
 }
 
@@ -325,7 +321,6 @@ a:hover {
 
 
 #bake-p {
-    color: #F2FAFF;
     margin: 40px;
 }
 
@@ -354,14 +349,12 @@ a:hover {
 
 
 #food-p {
-    color: #F2FAFF;
     margin: 40px;
 }
 
 
 #goals-ethics {
     width:100%;
-    color:#F2FAFF;
     display: block;
     height: 400px;
     padding: 50px 0;
@@ -504,7 +497,6 @@ a:hover {
     background-color: rgba(84, 99, 114, 0.5);
     padding: 40px;
     margin: 80px;
-    color: #F2FAFF;
     border-radius: 15px;
 }
 
@@ -562,7 +554,7 @@ a:hover {
     background-color: #546372;
     width: 45%;
     margin: 20px 60px 20px 0;
-   float: right;
+    float: right;
     color:#F2FAFF;
     padding: 10px;
     border-radius: 15px;
