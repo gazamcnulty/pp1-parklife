@@ -153,7 +153,7 @@ I used google dev tools to test the page in various screen sizes. It performs as
 
 ![samsung-galaxy](assets/images/samsung-galaxy8%2B.jpeg)
 
-![ipad-air](assets/images/ipad-air.jpeg
+![ipad-air](assets/images/ipad-air.jpeg)
 
 ![normal-monitor](assets/images/1245px-monitor-width.jpeg)
 
@@ -179,7 +179,20 @@ The Code Institute Lesson Guide was instrumental in providing the base info for 
 I revistied the love running project lessons many times, to see how visuals were implemented.
 
 w3schools was invaluable to me during the project, I found a lot of specific examples that allowed me to see how to structure my code to make it work.
+[w3schools] (https://www.w3schools.com/)
+
 In particular :
+[background images used in about.html] (https://www.w3schools.com/cssref/pr_background-image.php )
+[(banner video on index.html)] (https://www.w3schools.com/howto/howto_css_fullscreen_video.asp)
+[creating an interactive map window in contact.html] (https://www.w3schools.com/html/html_iframe.asp)
+
+I reviewed some old lessons on freecode camp to assist with my understanding of box model and flexbox
+
+[freecodecamp] (https://www.freecodecamp.org/learn)
+[flexbox-lesson] (https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-1)
+
+I utilised a markdown writing cheatsheet to add info to this readme file 
+[markdown-writing-guide] (https://www.markdownguide.org/cheat-sheet/)
 
 My mentor Brian Macharia was provided really good feedback and tips for the site over multiple meetings.
 
