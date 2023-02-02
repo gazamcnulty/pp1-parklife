@@ -1,1305 +1,928 @@
-
- /*import url from google fonts*/
- @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Nixie+One&family=Source+Code+Pro&display=swap');
-
-/*base css for body + p of all pages, so there is a default css. only changed by more specific styling*/
-body {
-    font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
-    background-color: #778da2;
-    max-width: 2400px;
-    z-index: 0;
-    margin: 0 auto 0 auto;
-    padding: 0;
-}
-
-p {
-    line-height: 2em;
-    color: #F2FAFF;
-}
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-/*index.html*/
-
-
-
-
-/*header, on all pages*/
-
-#top {
-    width:100%;
-    background-color: #546372;
-    position:fixed;
-    left:0;
-    top:0;
-    z-index: 1;/*higher z-index to ensure its always on top, even when scrolling down*/
-
-}
-
-/*Parklife Café logo and heart icon, on all pages*/
-#logo {
-    font-size: 300%;
-    float:left;
-    margin: 20px 0 5px 5px;
-    color:#F2FAFF;
-}
-
-#heart {
-    float:left;
-    color:red;
-    font-size: 275%;
-    margin-top: 20px;
-}
-
-/*nav bar, on all pages*/
-nav {
-    float: right;
-    margin: 20px 5px 0 0;
-    color:#F2FAFF
-}
-
-li {
-    list-style-type: none;/*remove dash/line next to list item*/
-}
-
-nav > ul > li {
-    display:inline; /*make nav bar horizontal instead of vertical*/
-    font-size: 150%;
-
-}
-
-ul > li > a {
-    color:#F2FAFF;
-    text-decoration: none;/*remove default anchor element styling*/
-}
-
-a:hover {
-    color:#546372;
-    background-color: #F2FAFF;/*reverse colors on hover, to make clear its a clickable link*/
-}
-
-.thispage {
-    color:#546372;
-    background-color: #F2FAFF;/*this class will be changed page to page, placed in the current page element so the current page is always highlighted to user*/
-}
-
-/*banner video*/
-#ad { 
-    width: 100%    !important;/*important makes it so the banner video always takes up 100% of screen*/
-    height: auto   !important;
-}
-
-
-
-#summary-div {
-    width: 100%;
-    padding:100px 0;
-    text-align:center;
-}
-
-#summary {
-    padding: 0 100px;
-    line-height: 1.5em;
-}
-
-
-
-
-/*gallery section of index.html*/
-
-
-
-
-
-
-
-#gallery {
-    /*using flexbox + box-sizing to style gallery images into a neat grid*/
-    box-sizing: border-box;
-    display:flexbox;
-    flex-direction: column;
-    /*typically 'justify-content:center;' and 'align-items:center;' would be used to center images in a flex box, however it doesn't work for me here when I use it on the parent div. I am unsure why. It works ok with 'text-align:center;' so I will use that*/
-    text-align: center;
-}
-
-
-.pics {
-    width: 350px;/*uniform width and height to make square*/
-    height: 350px;
-    border-radius: 5%;/*give a slight rounded edge to pictures*/
-    object-fit: cover;/*ensure space is filled by image*/
-    }
-
-
-
-
-/*footer, on all pages*/
-
-
-
-
-
-
-#social {
-    width: 100%;
-    height: 150px;
-    align-items: center;
-    padding-top: 30px;
-    background-color: #546372;
-    font-size:150%;
-    text-align: center;
-    margin-bottom: 0;/*ensures footer is always at the very bottom of the page*/
-}
-
-#social-links {
-    margin-top: 55px;
-    align-items: center;
-}
-
-#social > ul > li {
-    font-size: 150%;
-    display:inline;
-    text-decoration: none;
-    margin: 20px;
-}
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-/*about.html*/
-
-
-
-
-/*about intro and video*/
-
-
-
-
-
-#intro {
-    width:75%;
-    margin: 175px auto;
-    text-align: center;
-    background-color: #778da2;
-}
-
-#video {
-    margin:0 auto 175px auto;
-    width:70%;/*ensure the video div only takes up part of screen width*/
-}
-
-#about-video {
-    width:100%;/*ensure the video takes up entirety of video div*/
-}
-
-#about-h2 {
-    text-align: center;
-    color: #F2FAFF;
-    margin-bottom: 100px;
-}
-
-#area {
-    width:100%;
-    display: block;
-    height: 550px;
-    margin:0;
-}
-
-/*the format below , is to have the screen divided horizontally in 2 halves, one with info text the other with an image. the text and image will swap from left to right , between sections. this was done with left div and right divs. because html shows elements in order of placement by default, the swapping nature of left and right divs created a problem for smaller screen responsiveness. i fixed this by adding a 3rd 'hidden' div which would only show on smaller screen while also hiding the second div causing the problem*/
-
-#area-left {
-    width:50%;/*ensures it takes up exactly half of the page*/
-    float:left;
-    text-align: left;
-}
-
-#area-right {
-    background:url(../images/area3.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;/*ensures it takes up exactly half of the page*/
-    height:100%;
-    float:right;
-}
-#area-p {
-    margin: 40px;/*margin needs to be low enough to stop the div overlapping below and disrupting the left/right format*/
-
-}
-
-#dog {
-    width:100%;
-    display: block;
-    height: 550px;
-    margin:0;
-}
-
-#dog-left {
-    background:url(../images/labrador.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;
-    width:50%;
-    height:100%;
-    float:left;
-}
-
-#dog-right {
-    width:50%;
-    float:right;
-}
-
-#dog-p {
-    margin: 40px;
-}
-
-#coffee {
-    width:100%;
-    display: block;
-    height: 550px;
-    margin:0;
-}
-
-#coffee-left {
-    width:50%;
-    float:left;
-}
-
-#coffee-right {
-    background:url(../images/espresso.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;
-    width:50%;
-    height:100%;
-    float:right;
-}
-
-#coffee-p {
-    margin: 40px;
-}
-
-#bake {
-    width:100%;
-    display: block;
-    height: 550px;
-    margin:0;
-}
-
-#bake-left {
-    background:url(../images/sourdough1.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;
-    width:50%;
-    height:100%;
-    float:left;
-}
-
-#bake-right {
-    width:50%;
-    float:right;
-}
-
-
-#bake-p {
-    margin: 40px;
-}
-
-
-#food {
-    width:100%;
-    display: block;
-    height: 550px;
-    margin:0;
-}
-
-#food-left {
-    width:50%;
-    float:left;
-}
-
-#food-right {
-    background:url(../images/food2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;
-    height:100%;
-    float:right;
-}
-
-
-#food-p {
-    margin: 40px;
-}
-
-
-#goals-ethics {
-    width:100%;
-    display: block;
-    height: 400px;
-    padding: 50px 0;
-}
-
-#goals-ethics-left {
-
-    width:50%;
-    height:100%;
-    float:left;
-}
-
-#goals {
-    padding: 80px 60px;
-}
-
-#goals-ethics-right {
-
-    width:50%;
-    float:right;
-}
-
-#ethics{
-    padding: 70px 40px;
-}
-
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------------*/
-
-/*menu*/
-
-
-
-
-
-
-
-#menu-h2 {
-    margin: 120px 0 0 100px;
-    color:#F2FAFF;
-    font-size: 200%;
-}
-
-#menu {
-    color:#F2FAFF;
-    margin: 50px;
-    width: 95%;
-    height: 1100px;
-
-}
-
-.price {
-    font-weight: bolder;
-}
-
-.menu-p {
-    line-height: 1em;
-}
-
-#toasties {
-    background-color:rgba(84, 99, 114, 0.5);
-    width: 25%;
-    margin: 10px 20px; 
-    padding:10px;
-    float: left;
-    border-radius: 15px;
-}
-
-#sandwich {
-    font-size: 150%;
-    color: #F2FAFF;
-}
-
-#toasties > ul > li {
-    margin-bottom: 1em;
-}
-
-.menu-list {
-    padding:0;
-}
-
-#breakfast {
-    background-color: rgba(84, 99, 114, 0.5);
-    width: 25%;
-    margin: 10px 20px; 
-    padding:10px;
-    float: left;
-    border-radius: 15px;
-}
-
-
-#bacon {
-    font-size: 150%;
-    color: #F2FAFF;
-}
-
-#breakfast > ul > li {
-    margin-bottom: 1em;
-
-}
-
-#drinks {
-    background-color: rgba(84, 99, 114, 0.5);
-    width: 25%;
-    margin: 10px 20px; 
-    padding:10px;
-    float: left;
-    border-radius: 15px;
-}
-
-#drinks-icon {
-    font-size: 150%;
-    color: #F2FAFF;
-}
-
-
-h4 {
-	margin: 1em 0;
-    display: inline;
-	}
-  
-
-#allergens {
-    background-color: rgba(84, 99, 114, 0.5);
-    padding: 40px;
-    margin: 80px;
-    border-radius: 15px;
-    color:#F2FAFF;
-}
-
-.allergen-icon {
-    display: inline;
-    color:#F2FAFF;
-}
-
-
-
-
-
-
-
-
-/*contact*/
-
-
-
-
-
-
-
-
-
-
-
-#contact {
-    display:block;
-    width: 100%;
-    height:700px;
-    padding-top: 150px;
-    margin-bottom: 150px;
-}
-
-#form {
-    background-color: #546372;
-    color:#F2FAFF;
-    width: 30%;
-    float: left;
-    margin: 20px 0 20px 60px;
-    padding: 10px;
-    border-radius: 15px;
-    line-height: 1em;
-}
-
-.form-p {
-    line-height: 1em;
-}
-
-.info {
-    line-height: 1.5em;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-
-}
-
-
-#map-container {
-    background-color: #546372;
-    width: 45%;
-    margin: 20px 60px 20px 0;
-    float: right;
-    color:#F2FAFF;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-#map {
-    width: 80%;
-    height: 400px;
-    margin: 10px auto;
-}
-
-iframe {
-    width:100%;
-}
-
-#map-window {
-    width: 100%;
-    height: 100%;
-}
-
-#contact-info > p {
-    margin: 10px;
-}
-
-#form-1 {
-    margin-bottom: 5px;
-
-}
-
-
-#form-2 {
-    margin-bottom: 5px;
-}
-
-
-#button {    
-    text-align: center;
-    margin-top: 10px;
-}
-
-button {
-    font-size: 125%;
-    width: 50%;
-    height: 50px;
-}
-
-
-
-
-
-/*----------------------------------------------------------------------------------------------------------------------------*/
-/*  responsive media queries */ 
-
-
-
-
-
-@media only screen and (min-width: 3800px) {
-  p {
-    font-size: 175%;
-  }
-    
-  #menu {
-    height: 3000px;
-    width: 2800px;
-    font-size: 150%;
-    
-  }
-
- #drinks {
-    font-size: 150%;
- }
-  h2, h3, h4 {
-    font-size: 250%;
-  }
-
-  #allergens {
-    margin-bottom: 500px;
-    font-size: 150%;
-  }
-
-  #top {
-    font-size: 200%;
-  }
-
-  #social {
-    min-width: 3800px;
-    position: fixed;
-    font-size: 250%;
-    left: 0;
-    bottom: 0;
-  }
-
-  #gallery {
-    margin-bottom: 500px;
-  }
-
-  #contact {
-    height: 1800px;
-    width: 2800px;
-    margin-top: 300px;
-    font-size: 200%;
-  }
-
-  #form {
-    width : 35%;
-  }
-
-  #map-container {
-    width: 55%;
-    margin: 0 auto;
-  }
-
-  #map {
-    width: 80%;
-    height: 1000px;
-    margin: 10px auto;
-}
-
-  #contact-info {
-    font-size: 125%;
-  }
-
-  label {
-    font-size: 150%;
-  }
-
-  #about {
-    font-size: 150%;
-  }
-
-  #area {
-    height: 1400px;
-  }
-
-  #dog {
-    height: 1400px;
-  }
-
-  #coffee {
-    height: 1400px;
-  }
-
-  #food {
-    height: 1400px;
-  }
-
-  #bake {
-    height: 1400px;
-  }
-
-  #goals-ethics {
-    padding-bottom: 1000px;
-  }
-
-}
-
-
-
-
-
-
-@media only screen and (min-width: 1700px) {
  
-
-    #logo {
-        font-size: 400%;
+/*import url from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Nixie+One&family=Source+Code+Pro&display=swap');
+/*base css for body + p of all pages, so there is a default css. only changed by more specific styling*/
+ body {
+     font-family:'Courier Prime', monospace, 'Source Code Pro', monospace, sans-serif, 'Times New Roman', Times;
+     background-color: #778da2;
+     max-width: 2400px;
+     z-index: 0;
+     margin: 0 auto 0 auto;
+     padding: 0;
+}
+ p {
+     line-height: 2em;
+     color: #F2FAFF;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*index.html*/
+/*header, on all pages*/
+ #top {
+     width:100%;
+     background-color: #546372;
+     position:fixed;
+     left:0;
+     top:0;
+     z-index: 1;
+    /*higher z-index to ensure its always on top, even when scrolling down*/
+}
+/*Parklife Café logo and heart icon, on all pages*/
+ #logo {
+     font-size: 300%;
+     float:left;
+     margin: 20px 0 5px 5px;
+     color:#F2FAFF;
+}
+ #heart {
+     float:left;
+     color:red;
+     font-size: 275%;
+     margin-top: 20px;
+}
+/*nav bar, on all pages*/
+ nav {
+     float: right;
+     margin: 20px 5px 0 0;
+     color:#F2FAFF 
+}
+ li {
+     list-style-type: none;
+    /*remove dash/line next to list item*/
+}
+ nav > ul > li {
+     display:inline;
+    /*make nav bar horizontal instead of vertical*/
+     font-size: 150%;
+}
+ ul > li > a {
+     color:#F2FAFF;
+     text-decoration: none;
+    /*remove default anchor element styling*/
+}
+ a:hover {
+     color:#546372;
+     background-color: #F2FAFF;
+    /*reverse colors on hover, to make clear its a clickable link*/
+}
+ .thispage {
+     color:#546372;
+     background-color: #F2FAFF;
+    /*this class will be changed page to page, placed in the current page element so the current page is always highlighted to user*/
+}
+/*banner video*/
+ #ad {
+     width: 100% !important;
+    /*important makes it so the banner video always takes up 100% of screen*/
+     height: auto !important;
+}
+ #summary-div {
+     width: 100%;
+     padding:100px 0;
+     text-align:center;
+}
+ #summary {
+     padding: 0 100px;
+     line-height: 1.5em;
+}
+/*gallery section of index.html*/
+ #gallery {
+    /*using flexbox + box-sizing to style gallery images into a neat grid*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+ .pics {
+     width: 350px;
+    /*uniform width and height to make square*/
+     height: 350px;
+     border-radius: 5%;
+    /*give a slight rounded edge to pictures*/
+     object-fit: cover;
+    /*ensure space is filled by image*/
+}
+/*footer, on all pages*/
+ #social {
+     width: 100%;
+     height: 150px;
+     align-items: center;
+     padding-top: 30px;
+     background-color: #546372;
+     font-size:150%;
+     text-align: center;
+     margin-bottom: 0;
+    /*ensures footer is always at the very bottom of the page*/
+}
+ #social-links {
+     margin-top: 55px;
+     align-items: center;
+}
+ #social > ul > li {
+     font-size: 150%;
+     display:inline;
+     text-decoration: none;
+     margin: 20px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*about.html*/
+/*about intro and video*/
+ #intro {
+     width:75%;
+     margin: 175px auto;
+     text-align: center;
+     background-color: #778da2;
+}
+ #video {
+     margin:0 auto 175px auto;
+     width:70%;
+    /*ensure the video div only takes up part of screen width*/
+}
+ #about-video {
+     width:100%;
+    /*ensure the video takes up entirety of video div*/
+}
+ #about-h2 {
+     text-align: center;
+     color: #F2FAFF;
+     margin-bottom: 100px;
+}
+ #area {
+     width:100%;
+     display: block;
+     height: 550px;
+     margin:0;
+}
+/*the format below , is to have the screen divided horizontally in 2 halves, one with info text the other with an image. the text and image will swap from left to right , between sections. this was done with left div and right divs. because html shows elements in order of placement by default, the swapping nature of left and right divs created a problem for smaller screen responsiveness. i fixed this by adding a 3rd 'hidden' div which would only show on smaller screen while also hiding the second div causing the problem*/
+ #area-left {
+     width:50%;
+    /*ensures it takes up exactly half of the page*/
+     float:left;
+     text-align: left;
+}
+ #area-right {
+     background:url(../images/area3.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width:50%;
+    /*ensures it takes up exactly half of the page*/
+     height:100%;
+     float:right;
+}
+ #area-p {
+     margin: 40px;
+    /*margin needs to be low enough to stop the div overlapping below and disrupting the left/right format*/
+}
+ #dog {
+     width:100%;
+     display: block;
+     height: 550px;
+     margin:0;
+}
+ #dog-left {
+     background:url(../images/labrador.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width:50%;
+     width:50%;
+     height:100%;
+     float:left;
+}
+ #dog-right {
+     width:50%;
+     float:right;
+}
+ #dog-p {
+     margin: 40px;
+}
+ #coffee {
+     width:100%;
+     display: block;
+     height: 550px;
+     margin:0;
+}
+ #coffee-left {
+     width:50%;
+     float:left;
+}
+ #coffee-right {
+     background:url(../images/espresso.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width:50%;
+     width:50%;
+     height:100%;
+     float:right;
+}
+ #coffee-p {
+     margin: 40px;
+}
+ #bake {
+     width:100%;
+     display: block;
+     height: 550px;
+     margin:0;
+}
+ #bake-left {
+     background:url(../images/sourdough1.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width:50%;
+     width:50%;
+     height:100%;
+     float:left;
+}
+ #bake-right {
+     width:50%;
+     float:right;
+}
+ #bake-p {
+     margin: 40px;
+}
+ #food {
+     width:100%;
+     display: block;
+     height: 550px;
+     margin:0;
+}
+ #food-left {
+     width:50%;
+     float:left;
+}
+ #food-right {
+     background:url(../images/food2.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width:50%;
+     height:100%;
+     float:right;
+}
+ #food-p {
+     margin: 40px;
+}
+ #goals-ethics {
+     width:100%;
+     display: block;
+     height: 400px;
+     padding: 50px 0;
+}
+ #goals-ethics-left {
+     width:50%;
+     height:100%;
+     float:left;
+}
+ #goals {
+     padding: 80px 60px;
+}
+ #goals-ethics-right {
+     width:50%;
+     float:right;
+}
+ #ethics{
+     padding: 70px 40px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*menu*/
+ #menu-h2 {
+     margin: 120px 0 0 100px;
+     color:#F2FAFF;
+     font-size: 200%;
+}
+ #menu {
+     color:#F2FAFF;
+     margin: 50px;
+     width: 95%;
+     height: 1100px;
+}
+ .price {
+     font-weight: bolder;
+}
+ .menu-p {
+     line-height: 1em;
+}
+ #toasties {
+     background-color:rgba(84, 99, 114, 0.5);
+     width: 25%;
+     margin: 10px 20px;
+     padding:10px;
+     float: left;
+     border-radius: 15px;
+}
+ #sandwich {
+     font-size: 150%;
+     color: #F2FAFF;
+}
+ #toasties > ul > li {
+     margin-bottom: 1em;
+}
+ .menu-list {
+     padding:0;
+}
+ #breakfast {
+     background-color: rgba(84, 99, 114, 0.5);
+     width: 25%;
+     margin: 10px 20px;
+     padding:10px;
+     float: left;
+     border-radius: 15px;
+}
+ #bacon {
+     font-size: 150%;
+     color: #F2FAFF;
+}
+ #breakfast > ul > li {
+     margin-bottom: 1em;
+}
+ #drinks {
+     background-color: rgba(84, 99, 114, 0.5);
+     width: 25%;
+     margin: 10px 20px;
+     padding:10px;
+     float: left;
+     border-radius: 15px;
+}
+ #drinks-icon {
+     font-size: 150%;
+     color: #F2FAFF;
+}
+ h4 {
+     margin: 1em 0;
+     display: inline;
+}
+ #allergens {
+     background-color: rgba(84, 99, 114, 0.5);
+     padding: 40px;
+     margin: 80px;
+     border-radius: 15px;
+     color:#F2FAFF;
+}
+ .allergen-icon {
+     display: inline;
+     color:#F2FAFF;
+}
+/*contact*/
+ #contact {
+     display:block;
+     width: 100%;
+     height:700px;
+     padding-top: 150px;
+     margin-bottom: 150px;
+}
+ #form {
+     background-color: #546372;
+     color:#F2FAFF;
+     width: 30%;
+     float: left;
+     margin: 20px 0 20px 60px;
+     padding: 10px;
+     border-radius: 15px;
+     line-height: 1em;
+}
+ .form-p {
+     line-height: 1em;
+}
+ .info {
+     line-height: 1.5em;
+     display: block;
+     width: 100%;
+     box-sizing: border-box;
+}
+ #map-container {
+     background-color: #546372;
+     width: 45%;
+     margin: 20px 60px 20px 0;
+     float: right;
+     color:#F2FAFF;
+     padding: 10px;
+     border-radius: 15px;
+}
+ #map {
+     width: 80%;
+     height: 400px;
+     margin: 10px auto;
+}
+ iframe {
+     width:100%;
+}
+ #map-window {
+     width: 100%;
+     height: 100%;
+}
+ #contact-info > p {
+     margin: 10px;
+}
+ #form-1 {
+     margin-bottom: 5px;
+}
+ #form-2 {
+     margin-bottom: 5px;
+}
+ #button {
+     text-align: center;
+     margin-top: 10px;
+}
+ button {
+     font-size: 125%;
+     width: 50%;
+     height: 50px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/* responsive media queries */
+ @media only screen and (min-width: 3800px) {
+     p {
+         font-size: 175%;
     }
-    
-    nav > ul > li {
-        font-size: 250%;
+     #menu {
+         height: 3000px;
+         width: 2800px;
+         font-size: 150%;
     }
-
-    #summary {
-        line-height: 2.5em;
-        font-size: 200%;
-      }
-      
-      #social > ul > li {
-        font-size: 150%;
+     #drinks {
+         font-size: 150%;
+    }
+     h2, h3, h4 {
+         font-size: 250%;
+    }
+     #allergens {
+         margin-bottom: 500px;
+         font-size: 150%;
+    }
+     #top {
+         font-size: 200%;
+    }
+     #social {
+         min-width: 3800px;
+         position: fixed;
+         font-size: 250%;
+         left: 0;
+         bottom: 0;
+    }
+     #gallery {
+         margin-bottom: 500px;
+    }
+     #contact {
+         height: 1800px;
+         width: 2800px;
+         margin-top: 300px;
+         font-size: 200%;
+    }
+     #form {
+         width : 35%;
+    }
+     #map-container {
+         width: 55%;
+         margin: 0 auto;
+    }
+     #map {
+         width: 80%;
+         height: 1000px;
+         margin: 10px auto;
+    }
+     #contact-info {
+         font-size: 125%;
+    }
+     label {
+         font-size: 150%;
+    }
+     #about {
+         font-size: 150%;
+    }
+     #area {
+         height: 1400px;
+    }
+     #dog {
+         height: 1400px;
+    }
+     #coffee {
+         height: 1400px;
+    }
+     #food {
+         height: 1400px;
+    }
+     #bake {
+         height: 1400px;
+    }
+     #goals-ethics {
+         padding-bottom: 1000px;
     }
 }
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1000px) {
-  p {
-        line-height: 1.5em;
-        padding:0;
-        margin:0;
-    } 
-
-    .menu-p {
-        line-height: 1em;
+ @media only screen and (min-width: 1700px) {
+     #logo {
+         font-size: 400%;
     }
-    
-
+     nav > ul > li {
+         font-size: 250%;
+    }
+     #summary {
+         line-height: 2.5em;
+         font-size: 200%;
+    }
+     #social > ul > li {
+         font-size: 150%;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 800px) {
-
+ @media only screen and (max-width: 1000px) {
+     p {
+         line-height: 1.5em;
+         padding:0;
+         margin:0;
+    }
+     .menu-p {
+         line-height: 1em;
+    }
+}
+ @media only screen and (max-width: 800px) {
     /*index*/
-
-    body {
-        max-width: 800px;
+     body {
+         max-width: 800px;
     }
-
-
-    #top {
-        max-width:100%;
-        max-height: 175px;
+     #top {
+         max-width:100%;
+         max-height: 175px;
     }
-        
-        
-    #logo {
-        font-size: 175%;
-        margin: 10px 5px 0 5px;
+     #logo {
+         font-size: 175%;
+         margin: 10px 5px 0 5px;
     }
-        
-    #heart {
-        font-size: 175%;
-        margin: 10px 0 0 5px;
+     #heart {
+         font-size: 175%;
+         margin: 10px 0 0 5px;
     }
-        
-    nav {
-        margin:0;
-        float:left;
+     nav {
+         margin:0;
+         float:left;
     }
-        
-    nav > ul {
-        padding: 5px;
+     nav > ul {
+         padding: 5px;
     }
-        
-    nav > ul > li {
-        
-        font-size: 80%;
+     nav > ul > li {
+         font-size: 80%;
     }
-
-    .pics {
-        width:250px; /*give gallery pics a slightly smaller size on smaller screen*/
-        height:250px;
+     .pics {
+         width:250px;
+        /*give gallery pics a slightly smaller size on smaller screen*/
+         height:250px;
     }
-
-
-    #social {
-        height: 100%;
-        padding: 0;
-        font-size:100%;
-}
-            
-    #social-links {
-        margin-bottom: 0;
+     #social {
+         height: 100%;
+         padding: 0;
+         font-size:100%;
     }
-            
-    #social > ul {
-        padding: 2px;
+     #social-links {
+         margin-bottom: 0;
     }
-            
-    #social > ul > li {
-        display:block;
-        }
-        
-        /*about*/
-        /*in lower screen size, the left and right div layout ceases, instead becomes a standard vertical layout div by div. However, because of the layout I need to reverse the css for left and right sections, so that the pictures each come after the text in lower screen size*/
-        
-    #intro {
+     #social > ul {
+         padding: 2px;
+    }
+     #social > ul > li {
+         display:block;
+    }
+    /*about*/
+    /*in lower screen size, the left and right div layout ceases, instead becomes a standard vertical layout div by div. However, because of the layout I need to reverse the css for left and right sections, so that the pictures each come after the text in lower screen size*/
+     #intro {
          margin: 200px auto 100px auto;
     }
-
-    #video {
-        margin:0 auto 100px auto;
-        width:70%;
+     #video {
+         margin:0 auto 100px auto;
+         width:70%;
     }
-        
-    #about-video {
-        width:100%;
+     #about-video {
+         width:100%;
     }
-
-    #area {
-        height: 1000px;
-        margin: 30px auto;
+     #area {
+         height: 1000px;
+         margin: 30px auto;
     }
-        
-    #area-left {
-        width:100%;
-        float:none;
+     #area-left {
+         width:100%;
+         float:none;
     }
-        
-    #area-right {
-        width:100%;
-        height:50%;
-        float:none;
+     #area-right {
+         width:100%;
+         height:50%;
+         float:none;
     }
-
-    #area-p {
-        padding: 40px;
-        margin-top: 20px;
+     #area-p {
+         padding: 40px;
+         margin-top: 20px;
     }
-        
-    #dog {
-        height: 1000px;
-        float:none;
-        display: block;
-        margin: 30px auto;
+     #dog {
+         height: 1000px;
+         float:none;
+         display: block;
+         margin: 30px auto;
     }
-        
-    #dog-left {
-        width:0;
-        height:0;
-        background:none;
+     #dog-left {
+         width:0;
+         height:0;
+         background:none;
     }
-        
-    #dog-right {
-        float:none;
-        width:100%;
-            
+     #dog-right {
+         float:none;
+         width:100%;
     }
-
-    #dog-hidden {
-        background:url(../images/labrador.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width:100%;
-        height:50%;
-        float:none;
+     #dog-hidden {
+         background:url(../images/labrador.jpeg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         width:100%;
+         height:50%;
+         float:none;
     }
-        
-    #dog-p {
-        padding: 40px;
-        margin-top: 20px;
+     #dog-p {
+         padding: 40px;
+         margin-top: 20px;
     }
-        
-    #coffee {
-        height: 1000px;
-        float:none;
-        margin: 30px auto;
+     #coffee {
+         height: 1000px;
+         float:none;
+         margin: 30px auto;
     }
-        
-    #coffee-left {
-        width:100%;
-        float:none;  
+     #coffee-left {
+         width:100%;
+         float:none;
     }
-        
-    #coffee-right {
-        width:100%;
-        height: 50%;
-        margin-bottom: 40px;
-        float:none;
+     #coffee-right {
+         width:100%;
+         height: 50%;
+         margin-bottom: 40px;
+         float:none;
     }
-        
-    #coffee-p {
-        padding: 40px;
-        margin-top: 20px;
+     #coffee-p {
+         padding: 40px;
+         margin-top: 20px;
     }
-        
-    #bake {
-        width:100%;
-        height: 1000px;
-        margin:  40px auto 30px auto;
-        float:none;
+     #bake {
+         width:100%;
+         height: 1000px;
+         margin: 40px auto 30px auto;
+         float:none;
     }
-        
-    #bake-left {
-        width:0;
-        height:0;
-        background:none;
-        float:none;
+     #bake-left {
+         width:0;
+         height:0;
+         background:none;
+         float:none;
     }
-        
-    #bake-right {
-        width:100%;
-        float:none;   
+     #bake-right {
+         width:100%;
+         float:none;
     }
-
-    #bake-hidden {
-        background:url(../images/sourdough1.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width:100%;
-        height:50%;
-        float:none;
-}
-        
-    #bake-p {
-        padding: 40px;
-        margin-top: 20px;
-        float:none;
+     #bake-hidden {
+         background:url(../images/sourdough1.jpeg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         width:100%;
+         height:50%;
+         float:none;
     }
-        
-        
-    #food {
-        width:100%;
-        display: block;
-        height: 1000px;
+     #bake-p {
+         padding: 40px;
+         margin-top: 20px;
+         float:none;
+    }
+     #food {
+         width:100%;
+         display: block;
+         height: 1000px;
          margin: 30px auto 50px auto;
-        float:none;
+         float:none;
     }
-        
-    #food-left {
-        width:100%;
-        float:none;
+     #food-left {
+         width:100%;
+         float:none;
     }
-        
-    #food-right {
-        width:100%;
-        height:50%;
-        margin-bottom: 40px;
-        float:none;
+     #food-right {
+         width:100%;
+         height:50%;
+         margin-bottom: 40px;
+         float:none;
     }
-        
-        
-    #food-p {
-        padding: 70px 40px;
-        margin-top: 20px;
+     #food-p {
+         padding: 70px 40px;
+         margin-top: 20px;
     }
-        
-    #goals-ethics {
-        height: auto;
-        margin:80px auto 20px auto;
+     #goals-ethics {
+         height: auto;
+         margin:80px auto 20px auto;
     }
-        
-    #goals-ethics-left {
-        width:100%;
-        height:100%;
-        float:none;
+     #goals-ethics-left {
+         width:100%;
+         height:100%;
+         float:none;
     }
-        
-    #goals {
-        width: 75%;
-        padding:0;
-        margin:0 auto;
+     #goals {
+         width: 75%;
+         padding:0;
+         margin:0 auto;
     }
-        
-    #goals-ethics-right {
-        width:100%;
-        float:none;
-        }
-        
-    #ethics{
-            width: 75%;
-            margin:0 auto;
-        }
-
-
-
-      /*contact us*/
-
-
-
-    #contact {
-        margin: 0 auto;
-        height: 1300px;
+     #goals-ethics-right {
+         width:100%;
+         float:none;
     }
-    
-    #form {
-        width: 75%;
-        float: none;
-        margin: 40px auto;
+     #ethics{
+         width: 75%;
+         margin:0 auto;
     }
-    
-    #map-container {
-        width: 75%;
-        margin: 0 auto;
-        float: none;
+    /*contact us*/
+     #contact {
+         margin: 0 auto;
+         height: 1300px;
     }
-
-    #map {
-        height: 300px;
+     #form {
+         width: 75%;
+         float: none;
+         margin: 40px auto;
     }
-    
-
-
-
+     #map-container {
+         width: 75%;
+         margin: 0 auto;
+         float: none;
+    }
+     #map {
+         height: 300px;
+    }
     /*menu*/
-
-
-
-
-    #menu-h2 {
-        margin-left: 20px;
+     #menu-h2 {
+         margin-left: 20px;
     }
-
-    #menu {
-        height: auto;
-        margin: 40px 0;
+     #menu {
+         height: auto;
+         margin: 40px 0;
     }
-
-    
-    #toasties {
-        float:none;
-        width: 60%;
-        margin:  70px auto;
+     #toasties {
+         float:none;
+         width: 60%;
+         margin: 70px auto;
     }
-
-    #breakfast {
-        float:none;
-        width: 60%;
-        margin:  70px auto;
+     #breakfast {
+         float:none;
+         width: 60%;
+         margin: 70px auto;
     }
-
-    #drinks {
-        float:none;
-        width: 60%;
-        margin:  70px auto;
+     #drinks {
+         float:none;
+         width: 60%;
+         margin: 70px auto;
     }
-
-
-    #allergens {
-        margin:auto;
-        width: 75%;
+     #allergens {
+         margin:auto;
+         width: 75%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 475px) {
-  * {
-    max-width: 475px;
-  }
-
-  p {
-    line-height: 1em!important;
-  }
-
-  #top {
-    max-width:100%;
-    max-height: 100px;
-
+ @media only screen and (max-width: 475px) {
+     * {
+         max-width: 475px;
+    }
+     p {
+         line-height: 1em!important;
+    }
+     #top {
+         max-width:100%;
+         max-height: 100px;
+    }
+     #logo {
+         font-size: 125%;
+         margin: 10px 5px 0 5px;
+    }
+     nav {
+         margin:0;
+         float:left;
+    }
+     nav > ul {
+         padding: 5px;
+    }
+     nav > ul > li {
+         font-size: 75%;
+    }
+     #ad {
+         margin: 120px 0 40px;
+    }
+     #summary-div {
+         width: 300px;
+         padding:0;
+         margin: 0 auto;
+    }
+     #summary {
+         width: 100%;
+         margin: 0 auto;
+         padding: 10px 0 20px 0;
+    }
+     .pics {
+         width:175px;
+         height:175px;
+    }
+     footer {
+         width:100%;
+         height:100%;
+    }
+     #social {
+         width:100%;
+         height: 100%;
+         background-color: #546372;
+         padding: 0;
+         font-size:100%;
+    }
+     #social > ul {
+         padding: 2px;
+    }
+     #social > ul > li {
+         display:block;
+         text-decoration: none;
+    }
+    /* about */
+     #video {
+         margin:0 auto 60px auto;
+         width:85%;
+        /* margin: 0 100px;
+         */
+    }
+     #area {
+         height: 1200px;
+    }
+     #area-right {
+         width:100%;
+         height:35%;
+         float:none;
+    }
+     #dog {
+         height: 1200px;
+    }
+     #dog-hidden {
+         width:100%;
+         height:35%;
+         float:none;
+    }
+     #coffee {
+         height:1200px;
+    }
+     #coffee-right {
+         width:100%;
+         height:35%;
+         margin-bottom: 40px;
+         float:none;
+    }
+     #bake-hidden {
+         width:100%;
+         height:35%;
+         float:none;
+    }
+     #food {
+         height: 1200px;
+    }
+     #food-right {
+         width:100%;
+         height:35%;
+         float:none;
+    }
+    /* contact */
+     #contact {
+         height: 1300px;
+    }
+     #form {
+         width:90%;
+         margin-bottom: 40px;
+    }
+     #map-container {
+         width:90%;
+    }
+     #map {
+         height: 200px;
+    }
+    /*menu*/
+     #menu-h2 {
+         margin-left: 0;
+    }
+     #menu {
+         margin: 20px 0;
+    }
+     #toasties {
+         float:none;
+         width: 90%;
+         margin:40px auto;
+    }
+     #breakfast {
+         float:none;
+         width: 90%;
+         margin:40px auto;
+    }
+     #drinks {
+         float:none;
+         width: 90%;
+         margin:40px auto;
+    }
+     #allergens {
+         margin: 40px auto;
+         padding:10px;
+         width: 90%;
+    }
 }
-
-
-#logo {
-    font-size: 125%;
-    margin: 10px 5px 0 5px;
-
-}
-
-nav {
-    margin:0;
-    float:left;
-}
-
-nav > ul {
-    padding: 5px;
-}
-
-nav > ul > li {
-
-    font-size: 75%;
-}
-
-
-  #ad {
-
-  margin: 120px 0 40px;
-  }
-
-  #summary-div {
-    width: 300px;
-    padding:0;
-    margin: 0 auto;
-    }
-
-#summary {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px 0 20px 0;
-}
-
-
-.pics {
-    width:175px;
-    height:175px;
-    }
-
-    footer {
-        width:100%;
-        height:100%;
-    }
-
-    #social {
-    width:100%;
-    height: 100%;
-    background-color: #546372;
-    padding: 0;
-    font-size:100%;
-
-    }
-    
-    
-    #social > ul {
-        padding: 2px;
-    }
-    
-    #social > ul > li {
-    
-        display:block;
-        text-decoration: none;
-
-    }
-
-
-    /* about */ 
-
-    #video {
-        margin:0 auto 60px auto;
-        width:85%;
-        /*
-        margin: 0 100px;
-        */
-    }
-
-    #area {
-        height: 1200px;
-    }
-
-    #area-right {
-        width:100%;
-        height:35%;
-        float:none;
-}
-
-#dog {
-    height: 1200px;
-}
-
-#dog-hidden {
-        width:100%;
-        height:35%;
-        float:none;
-    }
-#coffee {
-    height:1200px;
-}
-
-#coffee-right {
-        width:100%;
-        height:35%;
-        margin-bottom: 40px;
-        float:none;
-    }
-
-#bake-hidden {
-        width:100%;
-        height:35%;
-        float:none;
-    }
-
-    #food {
-
-        height: 1200px;
-
-    }
-
-#food-right {
-        width:100%;
-        height:35%;
-        float:none;
-    }
-    
-/* contact */
-
-    #contact {
-
-        height: 1300px;
-    }
-    
-    #form {
-        width:90%;
-        margin-bottom: 40px;
-    }
-
-
-    #map-container {
-        width:90%;
-    }
-
-    #map {
-        height: 200px;
-    }
-
- /*menu*/
-
- #menu-h2 {
-    margin-left: 0;
- }
-
- #menu {
-    margin: 20px 0;
- }
-
- #toasties {
-    float:none;
-    width: 90%;
-    margin:40px auto;
-}
-
-#breakfast {
-    float:none;
-    width: 90%;
-    margin:40px auto;
-}
-
-#drinks {
-    float:none;
-    width: 90%;
-    margin:40px auto;
-}
-
-
-#allergens {
-    margin: 40px auto;
-    padding:10px;
-    width: 90%;
-}
-
-
-} 
-
-
-
-
-
+ 
