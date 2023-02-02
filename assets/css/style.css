@@ -366,6 +366,8 @@
      display: inline;
      color:#F2FAFF;
 }
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
 /*contact*/
  #contact {
      display:block;
@@ -387,6 +389,7 @@
  .form-p {
      line-height: 1em;
 }
+
  .info {
      line-height: 1.5em;
      display: block;
@@ -474,6 +477,9 @@
     }
      #form {
          width : 35%;
+    }
+    input {
+        height:100px;
     }
      #map-container {
          width: 55%;
