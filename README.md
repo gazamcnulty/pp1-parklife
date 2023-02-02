@@ -79,7 +79,7 @@ menu.html
 ---------
 in menu.html, the header and footer elements stay the same , for consistent navigation
 
-![footer](assets/images/footer.jpeg)
+![menu](assets/images/menu.jpeg)
 
 -Because the business is a café with food and drink , I thought it was important to clearly represent all of the food options and allergens, in a legible, easy to navigate menu. I had considered providing photos, but since the actual menu's in the café don't feature this I thought I should stay true to the café's intention. Similary I thought about bringing in similar design from the home page and feature the looping video in the background. However I decided against this as I felt it would be distracting to the user trying to look at the menu info and make a decision. 
 I also kept the design of the menu straight forward, without background images or complex designs, I wanted the info to be as plain and clear as possible. The only distinct design choice was placing the 3 food sections (toasties, breakfast, drinks) into 3 vertical sections, and then having the allergens show as being seperate from this as a horizontal section at the bottom. It is important for health and safety concerns, that food allergens are immediatley visible and not hidden from users.
