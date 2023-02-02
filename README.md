@@ -107,7 +107,7 @@ Visual Design
 -----------------------------------------------------------------------------------------------------
 I had initially intended, to have a generic background image of either coffee beans, a hardwood design, or the café itself. However I chose instead to go for a more minimalist approach which fits better with the cafés identity and appearance. I decidied to base it around 3 colors ; the navy/blue which matches the outside paint of the cafe, a lighter tone of the same color for background/distinction, and a light white color for contrast and text info. Although this may not appear particularly striking compared to some large franchises or restaurant websites, I feel the humber design appeals more closely to the identity of Parklife Café.
 
-
+I elected to use pencil sketches on paper , to conceptualise the overall design philosophy.
 
 
 
