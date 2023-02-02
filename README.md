@@ -56,24 +56,30 @@ index.html
 ----------
 -The first thing visible is the header at the top of the page, with the Parklife Café logo on the top right. On the left is the navigation bar , containing an unordered list of list + anchor elements. These allow the user to navigate to any page on the site at any time.
 The header section remains consistent across all the pages on the site.
+![header](assets/images/header.jpeg)
 
 The header has position:fixed; to keep it on top of the page and on a higher plane of below content. This way, even if the user scrolls down away from the top, they can still see the header bar at all times. This is important so they never get lost and always have the option to click to another page or back to homescreen.
 The logo is also an anchor element linking to index.html, this is functionally identical to the home link, and is there to reduce the liklihood of people not understanding how to navigate back to the home page.
 The navigation links are responsive, the current page is highlighted via a change in the background color and a similar color shows when you hover over the other link. 
+![header](assets/images/header.jpeg)
 
 -To immediately welcome people to the site, and by extension the Parklife Café, I chose to show a banner video on the landing page. This is the 30 second spec commercial advertising Parklife Café, showing workers and customers smiling and enjoying the food and coffee. The video is muted so as to be unobtrusive and it loops on repeat, so it functions similar to a 'hero-image' but is a moving video instead.
+![banner-video](assets/images/index.jpeg)
 
 -Below the video on the homescreen , there is small introductory paragraph welcoming people to Parklife Café. This is less detailed than the about.html page, but it adds more personality to the page. It also ensures that even if the user chooses not to visit the about page, they will more than likely see this section at least, and thus get a sense of the cafés identity.
-
+![summary](assets/images/intro.jpeg)
 
 -Following the trend of identity and personality , below this section is a gallery of photos from the café. They have uniform styling, they appear in flexbox for responsiveness and have the same rounded edges and box-sizing. I considered having a seperate gallery all together , but I think this is less relevant for the type of business this page is for. (For example if this was a book club or a charity, which relies on people signing up and taking part, a gallery of images showing people and members might be useful) In this instance, its a café serving food and drink. So the smaller minimalist images work to show some character and give an idea of what the café looks like, without requiring a full seperate page which users would be less likely to navigate too.
+![gallery](assets/images/gallery.jpeg)
 
 -Finally at the bottom of the page, the footer section is a horizontal bar closing the page visually. Its color matches the header, so this communicates the begginning and end sections to the client visually. It features fixed positioning to make sure it is always at the bottom of the page, regardless of screen size. It contains social media links to facebook , twitter, instagram and deliveroo. This serves to increase the outreach of the Parklife Café, as users may choose to interact with the café on other platforms. This can increase the cafés presence on other sites, which can also feed back to this web page. All of this web design is a feedback loop to increase user activity and bring in more customers.
-
+![footer](assets/images/footer.jpeg)
 
 menu.html
 ---------
 in menu.html, the header and footer elements stay the same , for consistent navigation
+
+![footer](assets/images/footer.jpeg)
 
 -Because the business is a café with food and drink , I thought it was important to clearly represent all of the food options and allergens, in a legible, easy to navigate menu. I had considered providing photos, but since the actual menu's in the café don't feature this I thought I should stay true to the café's intention. Similary I thought about bringing in similar design from the home page and feature the looping video in the background. However I decided against this as I felt it would be distracting to the user trying to look at the menu info and make a decision. 
 I also kept the design of the menu straight forward, without background images or complex designs, I wanted the info to be as plain and clear as possible. The only distinct design choice was placing the 3 food sections (toasties, breakfast, drinks) into 3 vertical sections, and then having the allergens show as being seperate from this as a horizontal section at the bottom. It is important for health and safety concerns, that food allergens are immediatley visible and not hidden from users.
@@ -82,11 +88,14 @@ about.html
 ----------
 in about.html, the header and footer elements stay the same , for consistent navigation
 
+![about](assets/images/about.jpeg)
 -Because of how important the local community and culture is , I included a detailed about section with photos and info describing the cafe from various perspectives.
 The first part features another brief welcome and intro to Parklife Café, below that is a video element for the spec commercial ad. Unlike the mute, looping background video on index.html, this is a normal clickable video with sound. This gives the user the option to watch and hear the video if the want to, it does not play by default as autoplaying videos are not an enjoyable experience for a user visiting a website. 
 
+![grid](assets/images/grid.jpeg)
 - In the about section I opted for a grid based design in horizontal sections, with a large photo on one side and a paragraph of info on the left. The photo and paragraph swap sides on each section as you navigate down. This keeps the design fresh but is also relatively simplistic and keeps with the minimalist aesthetic of the other pages. The paragraphs include info about the area, being dog friendly, coffee sourcing, the food, and freshly baked bread.
 
+![goals-ethics](assets/images/goals.jpeg)
 - The final section of about.html features the goals and ethics. This is a break from the grid based picture and paragraph design above, and instead just features text info. I chose this because the goals and ethics of a company reflect their core values, beliefs and philosophy. I wanted this to be taken seriously and not have it contrasted with a funny picture. Since the subject matter of these sections can be quite serious ( being anti-descrimination, ethical sourcing, sustainable business practices etc) I felt it was more appropriate to have a clean sterile visual, with just a paragraph of text.
 
 contact.html
@@ -96,6 +105,7 @@ in contact.html, the header and footer elements stay the same , for consistent n
 -Because of how important retaining regular and repeat customers is, I included a form for people to sign up to receive an email newsletter about the café. This serves as a way to keep people in touch with the café , to remind them of its existence by way of non-intrusive advertising. It could also lead to a 'rewards' scheme in which people who sign up receive loyalty points for future discounts.
 
 -Because of the fact that the café is situated far away from Dublin city centre, I chose to include an interactive map showing the location and address of the business. Although most people would use google maps if they were unsure of the location, I feel like having the area clearly marked reduces the liklihood of people not knowing exactly where it is . Even if this only affects a few people who choose to go, every little helps for a small local business such as this.
+![contact](assets/images/contact.jpeg)
 
 -As fitting with a business, I also put in the opening hours of the business here in the contact section. I had considered putting the opening hours in the footer element on all pages of the site, but I feel like this detracted slightly from the intended cool / minimalist design. I believe most frequenters of the café would be aware it opens during typical café hours, but the opening hours are listed here on the contact page for more specific queries.
 
@@ -213,7 +223,7 @@ I used stock images from pexels [pexels](https://www.pexels.com/)
 
 I used the images from the Parklife Café instagram page [instagram](https://www.instagram.com/parklifecafe/?hl=en)
 
-I used a spec commercial video, made by Laura O'Shea for the video [https://www.lauraoshea.com/specs.html]
+I used a spec commercial video, made by Laura O'Shea for the video (https://www.lauraoshea.com/specs.html)
 
 I utilised a markdown writing cheatsheet to add info to this readme file 
 [markdown-writing-guide] (https://www.markdownguide.org/cheat-sheet/)
