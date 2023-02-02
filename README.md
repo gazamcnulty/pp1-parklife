@@ -174,8 +174,14 @@ Mobile performance gave a score of 81
 
 Deployment
 
-From n the pp1-parklife repository on GitHub, click settings tab, then pages. 
-Go to source section , deploy from a branch
+This was created from the Code-Institute-Org/gitpod-full-template on GitHub. 
+[Code Institute Template on GitHub] (https://github.com/Code-Institute-Org/gitpod-full-template)
+Clicked on 'use this template' , chose a name , description.
+Clicked create repository.
+Clicked Gitpod to create the workspace
+
+This was done by clicking the pp1-parklife repository on GitHub, click settings tab, then pages. 
+Go to source section , deploy, main branch.
 This should update to show it has been deployed
 
 ![deployment](assets/images/deployment.jpeg)
