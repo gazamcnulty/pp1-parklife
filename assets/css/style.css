@@ -1018,35 +1018,33 @@ button {
 
 
     #contact {
-        display:block;
-        width: 100%;
-        padding-top: 150px;
         margin: 0 auto;
         height: 1300px;
     }
     
     #form {
-        background-color: #546372;
-        color:#F2FAFF;
-        border: solid 2px grey;
         width: 75%;
         float: none;
         margin: 40px auto;
     }
     
     #map-container {
-        background-color: #546372;
         width: 75%;
         margin: 0 auto;
         float: none;
-        color:#F2FAFF;
     }
 
     #map {
         height: 300px;
     }
     
+
+
+
     /*menu*/
+
+
+
 
     #menu-h2 {
         margin-left: 20px;
@@ -1109,26 +1107,19 @@ button {
   #top {
     max-width:100%;
     max-height: 100px;
-    background-color: #546372;
-    position:fixed;
-    top:0;
-    z-index: 1;
 
 }
 
 
 #logo {
-    float:left;
     font-size: 125%;
     margin: 10px 5px 0 5px;
-    color:#F2FAFF;
 
 }
 
 nav {
     margin:0;
     float:left;
-    color:#F2FAFF;
 }
 
 nav > ul {
@@ -1138,7 +1129,6 @@ nav > ul {
 nav > ul > li {
 
     font-size: 75%;
-    color:#F2FAFF
 }
 
 
@@ -1151,22 +1141,18 @@ nav > ul > li {
     width: 300px;
     padding:0;
     margin: 0 auto;
-    color:#F2FAFF;
     }
 
 #summary {
   width: 100%;
   margin: 0 auto;
   padding: 10px 0 20px 0;
-  line-height: 1.5em;
 }
 
 
 .pics {
     width:175px;
     height:175px;
-    border-radius: 5%;
-    object-fit: cover;
     }
 
     footer {
