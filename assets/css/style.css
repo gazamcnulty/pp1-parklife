@@ -645,6 +645,10 @@ button {
     bottom: 0;
   }
 
+  #gallery {
+    margin-bottom: 500px;
+  }
+
   #contact {
     height: 1800px;
     width: 2800px;
@@ -657,18 +661,18 @@ button {
   }
 
   #map-container {
-    width: 40%;
+    width: 55%;
     margin: 0 auto;
   }
 
   #map {
     width: 80%;
-    height: 800px;
+    height: 1000px;
     margin: 10px auto;
 }
 
   #contact-info {
-    font-size: 150%;
+    font-size: 125%;
   }
 
   label {
@@ -751,8 +755,6 @@ button {
     
 
 }
-
-
 
 
 
@@ -1011,13 +1013,7 @@ button {
 
 
 
-
       /*contact us*/
-
-
-
-
-
 
 
 
@@ -1187,10 +1183,6 @@ nav > ul > li {
 
     }
     
-    #social-links {
-        /*margin-top: 55px;
-        margin-right: 175px;*/
-    }
     
     #social > ul {
         padding: 2px;
