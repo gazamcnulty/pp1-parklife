@@ -539,8 +539,13 @@ h4 {
 }
 
 .info {
-    line-height: 1em;
+    line-height: 1.5em;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
 }
+
 
 #map-container {
     background-color: #546372;
@@ -576,10 +581,6 @@ iframe {
 
 }
 
-.info {
-    display:block;
-    line-height: 2em;
-}
 
 #form-2 {
     margin-bottom: 5px;
@@ -592,7 +593,9 @@ iframe {
 }
 
 button {
-    width: 25%;
+    font-size: 125%;
+    width: 50%;
+    height: 50px;
 }
 
 
