@@ -209,6 +209,12 @@ I reviewed some old lessons on freecode camp to assist with my understanding of 
 [freecodecamp] (https://www.freecodecamp.org/learn)
 [flexbox-lesson] (https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-1)
 
+I used stock images from pexels [pexels](https://www.pexels.com/)
+
+I used the images from the Parklife Café instagram page [instagram](https://www.instagram.com/parklifecafe/?hl=en)
+
+I used a spec commercial video, made by Laura O'Shea for the video [https://www.lauraoshea.com/specs.html]
+
 I utilised a markdown writing cheatsheet to add info to this readme file 
 [markdown-writing-guide] (https://www.markdownguide.org/cheat-sheet/)
 
