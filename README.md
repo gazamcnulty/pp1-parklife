@@ -160,6 +160,18 @@ I used google dev tools to test the page in various screen sizes. It performs as
 ![5k-monitor](assets/images/5kscreen.jpeg)
 
 
+I tested performance for desktop and mobile on pagespeed insights.
+
+Desktop performance gave a score of 98
+
+![desktop-score](assets/images/desktop-performance.jpeg)
+
+Mobile performance gave a score of 81
+
+![mobile-score](assets/images/mobile-performance.jpeg)
+
+
+
 Deployment
 
 From n the pp1-parklife repository on GitHub, click settings tab, then pages. 
